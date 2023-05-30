@@ -1,0 +1,169 @@
+/* This is loaded inline in the main/index.php file */
+
+#wpfooter {
+    position: relative;
+}
+
+.tnp-dashboard {
+    /*background-color: #f2f5f9;*/
+    /*color: #222222;*/
+}
+
+.tnp-dashboard .tnp-cards-container {
+    /*background-color: #28313c;*/
+}
+
+    /* Row Break Helper */
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.tnp-dashboard .tnp-card {
+    flex: 1 0;
+    align-content: flex-start;
+    margin: 15px;
+    /*font-family: soleil, sans-serif;*/
+    border-radius: 15px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 7px 0px rgb(0 0 0 / 15%);
+    -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 7px 0px rgb(0 0 0 / 15%);
+    padding: 15px;
+    color: var(--tnp-text);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.tnp-dashboard .tnp-card a, .tnp-dashboard .tnp-card a:active {
+    text-decoration: none;
+    color: inherit !important;
+}
+
+
+.tnp-dashboard .tnp-card .tnp-card-title {
+    flex-basis: 80%;
+    font-weight: bold;
+    margin: 0px 0px 30px;
+    font-size: 1rem;
+    /*color: #fff;*/
+    /*background-color: var(--tnp-blue);*/
+}
+
+.tnp-dashboard .tnp-card .tnp-card-upper-buttons {
+    flex-basis: 10%;
+    font-weight: normal;
+    margin: 0px 0px 10px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-description {
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: normal;
+    margin: 0px 0px 20px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-content {
+    width: 100%;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-button-container {
+    margin-top: 40px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-button-container a {
+    position: absolute;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFF !important;
+    background-color: #2980b9;
+    border-radius: 4px;
+    text-decoration: none;
+    bottom: 15px;
+    left: auto;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-button-container a:hover {
+    background-color: #2980b9e6;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletter-list {
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-subject {
+    flex-basis: 50%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-status {
+    flex-basis: 10%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-progress {
+    flex-basis: 30%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-action {
+    flex-basis: 5%;
+    margin-left: auto;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-subscriber-email {
+    flex-basis: 40%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-subscriber-name {
+    flex-basis: 30%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-subscriber-status {
+    flex-basis: 20%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-documentation-index {
+    background-color: #eee;
+    padding: 15px 20px 17px 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-documentation-index svg {
+    margin: 0px 10px;
+    vertical-align: text-bottom;
+    fill: var(--tnp-text);
+    stroke: var(--tnp-text);
+}
+
+.tnp-dashboard .tnp-card .tnp-card-documentation-index:hover {
+    animation: ease-in 4s;
+    background-color: #ddd;
+}
+
+.tnp-card .tnp-canvas {
+    width: 100%;
+}
+
+/* CSS Gradients */
+
+.tnp-mimosa {
+    background-color: #fd7278;
+}

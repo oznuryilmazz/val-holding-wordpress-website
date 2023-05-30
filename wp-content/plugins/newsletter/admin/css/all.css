@@ -1,0 +1,2834 @@
+#tnp-wrap .tnp-news {
+    background-color: var(--tnp-blue-darker);
+    border: 1px solid #ddd;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 750px;
+    align-items: center;
+}
+#tnp-wrap .tnp-news-message {
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: normal;
+}
+#tnp-wrap .tnp-news-cta {
+    text-align: right;
+    padding-right: 2rem;
+}
+#tnp-wrap .tnp-news-link {
+    display: inline-block;
+    background-color: var(--tnp-blue);
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    line-height: normal;
+}
+#tnp-wrap .tnp-news-dismiss {
+    position: absolute;
+    top: .2rem;
+    right: .3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ddd;
+}/* WordPress admin main wrapper */
+:root {
+    --tnp-green-lighter: #e5f2eb;
+    --tnp-green-light: #b2d9c2;
+    --tnp-green: #75bc92;
+    --tnp-green-dark: #4fa371;
+    --tnp-green-darker: #36704e;
+
+    --tnp-red-lighter: #fef6f3;
+    --tnp-red-light: #f9c2b0;
+    --tnp-red: #f38865;
+    --tnp-red-dark: #ee511e;
+    --tnp-red-darker: #b2360e;
+
+    --tnp-orange-lighter: hsl(22, 88%, 90%);
+    --tnp-orange-light: hsl(22, 88%, 75%);
+    --tnp-orange: hsl(22, 88%, 58%);
+    --tnp-orange-dark: hsl(22, 88%, 38%);
+    --tnp-orange-darker: hsl(22, 88%, 18%);
+
+    /*--tnp-blue-lighter: #b3d9f2;*/
+    --tnp-blue-lighter: #f4fafd;
+    --tnp-blue-light: #72b8e6;
+    --tnp-blue: #3498db;
+    --tnp-blue-dark: #1d6da2;
+    --tnp-blue-darker: #114161;
+
+    --tnp-gray-lighter: #eee;
+    --tnp-gray-light: #999;
+    --tnp-gray: #666;
+    --tnp-gray-dark: #444;
+    --tnp-gray-darker: #222;
+
+
+    --tnp-text: #555;
+    --tnp-title: #333;
+
+    --tnp-font-family: Inter, sans-serif;
+
+    --tnp-status-green: hsl(140, 70%, 22%);
+    --tnp-status-green-bg: hsl(140, 70%, 85%);
+
+    --tnp-status-purple-bg: hsl(282, 43%, 90%);
+    --tnp-status-purple: hsl(282, 43%, 37%);
+
+    --tnp-status-red-bg: hsl(0, 100%, 90%);
+    --tnp-status-red: hsl(0, 100%, 33%);
+
+    --tnp-status-orange-bg: hsl(17, 82%, 92%);
+    --tnp-status-orange: hsl(17, 82%, 43%);
+
+    --tnp-status-blue-bg: hsl(204, 70%, 90%);
+    --tnp-status-blue: hsl(204, 70%, 40%);
+
+
+    --tnp-status-gray-bg: #eee;
+    --tnp-status-gray: #444;
+
+    --tnp-status-gray-bg: hsl(219, 100%, 90%);
+    --tnp-status-gray: hsl(219, 100%, 27%);
+
+    --tnp-led-green: hsl(140, 70%, 40%);
+    --tnp-led-gray: #ccc;
+
+}
+
+#wpwrap {
+    /*background-color: #222B36 !important;*/
+}
+
+#wpcontent {
+    /*padding-left: 0;*/
+}
+
+#wpbody-content {
+    padding-bottom: 20px;
+}
+
+#tnp-wrap * {
+    box-sizing: border-box;
+}
+
+#tnp-wrap {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#tnp-wrap,
+#tnp-wrap th,
+#tnp-wrap p,
+#tnp-wrap td,
+#tnp-wrap tbody td,
+#tnp-wrap tbody th,
+#tnp-wrap thead td,
+#tnp-wrap thead th,
+#tnp-wrap td p,
+#tnp-wrap h1,
+#tnp-wrap h2,
+#tnp-wrap h3,
+#tnp-wrap h4,
+#tnp-wrap input,
+#tnp-wrap select,
+#tnp-wrap textarea,
+#tnp-wrap button,
+#tnp-wrap li,
+#tnp-wrap a
+{
+    font-family: var(--tnp-font-family);
+    -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+    -moz-osx-font-smoothing: grayscale; /* Firefox */
+    color: var(--tnp-text);
+    font-weight: normal;
+}
+
+.tnp-row-padded {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tnp-col-3-boxed {
+    width: 30%;
+    border: 1px solid #3c414c;
+    padding: 0px 0px 30px 0px;
+    border-radius: 10px;
+}
+
+.tnp-margin-top {
+    margin-top: 80px;
+}
+
+/******************************************************************************
+* BODY
+******************************************************************************/
+
+#tnp-body {
+    padding: 0 0px 10px 0px;
+    /*background-color: #28313C;*/
+}
+
+
+#tnp-body h3 {
+    margin-top: 25px;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+#tnp-body hr {
+    height: 0px;
+    border: 0;
+    border-top: 1px solid #666;
+}
+
+#tnp-body ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+#tnp-body a, #tnp-body a:active {
+    color: #2980B9; /* Blue */
+}
+
+#tnp-body a:hover {
+    color: #3498DB;
+}
+
+/* Action button container */
+#tnp-body .tnp-submit {
+    margin-bottom: 10px;
+}
+
+/* Primary button correction */
+#tnp-body .button,
+#tnp-body .button:visited,
+#tnp-body .button:hover,
+#tnp-body .button:active,
+#tnp-body .button:focus,
+#tnp-body .button-primary,
+#tnp-body .button-primary:visited,
+#tnp-body .button-primary:hover {
+    color: #fff;
+    text-shadow: none;
+    width: auto;
+    vertical-align: bottom;
+}
+
+#tnp-body .button-secondary,
+#tnp-body .button-secondary:visited,
+#tnp-body .button-secondary:hover {
+    color: #fff;
+    background-color: #999;
+    text-shadow: none;
+    width: auto;
+    vertical-align: bottom;
+}
+
+.wp-core-ui #tnp-body .button-tertiary,
+#tnp-body .button-tertiary:visited,
+#tnp-body .button-tertiary:hover {
+    color: var(--tnp-text)!important;
+    background-color: transparent;
+    text-shadow: none;
+    width: auto;
+    vertical-align: bottom;
+    border: 1px solid #999;
+}
+
+/* Icon in button media selector */
+#tnp-body span.wp-media-buttons-icon:before {
+    color: #fff;
+}
+
+/* Standard button */
+#tnp-body .tnp-button {
+    color: #fff;
+    background-color: #3498db;
+    text-shadow: none;
+}
+
+/* White button variant */
+#tnp-body .button-primary.tnp-button-white, #tnp-body .tnp-button.tnp-button-white {
+    color: #444!important;
+    background-color: #fff!important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    width: auto;
+}
+
+
+#tnp-body td .button,
+#tnp-body td .button:visited,
+#tnp-body td .button:hover,
+#tnp-body td .button:active,
+#tnp-body td .button:focus {
+    color: #444;
+}
+
+#tnp-body td a,
+#tnp-body td a:visited {
+    color: #27AE60; /* Green */
+}
+
+/*******************************************************************************
+ * Wide fat tables
+ */
+
+#tnp-body .widefat {
+    width: 90%;
+    color: var(--tnp-text);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#tnp-body .widefat th {
+    text-align: left;
+}
+
+#tnp-body .widefat thead {
+    background-color: #fff;
+    color: var(--tnp-text) !important;
+}
+
+#tnp-body .widefat thead tr th {
+    color: var(--tnp-text) !important;
+}
+
+#tnp-body .widefat td, .widefat th {
+    vertical-align: middle;
+}
+
+#tnp-body .widefat tbody tr:nth-child(odd) {
+    background-color: #f4faff;
+}
+
+
+
+table.clicks td {
+    border: 1px solid #666;
+    padding: 2px;
+    font-size: 10px;
+}
+
+table.clicks {
+    border-collapse: collapse;
+}
+
+.grid {
+    border-collapse: collapse;
+}
+.grid td, .grid th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+.grid th {
+    background-color: #aaa;
+}
+
+.tnp-buttons {
+    /*background-color: #0073aa;*/
+    padding: 10px 0;
+}
+
+
+/* Admin wide notices */
+
+#tnp-wrap .tnp-notice {
+    position: relative;
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 0px;
+    border-radius: 3px;
+    border: 1px solid var(--tnp-gray-light);
+    color: var(--tnp-text);
+}
+
+#tnp-wrap .tnp-notice a {
+    color: var(--tnp-blue-dark);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#tnp-wrap .tnp-notice.tnp-notice-warning {
+    background-color: var(--tnp-orange-lighter); 
+    border-color: var(--tnp-orange-light)
+}
+
+#tnp-wrap .tnp-notice a.tnp-dismiss {
+    display: block;
+    line-height: normal;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--tnp-text) !important;
+}
+
+#tnp-wrap .tnp-notice input[type=email] {
+    width: 250px;
+    box-shadow: none;
+}
+
+#tnp-wrap .tnp-notice input[type=submit] {
+    background-color: var(--tnp-blue);
+    font-size: 13px;
+    color: #fff;
+}
+
+
+.newsletter-textarea-preview {
+    border: 1px solid #ddd;
+}
+
+.tnp-tab-notice {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-left: 3px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+    color: #444;
+}
+
+.tnp-tab-warning {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-left: 3px solid orange;
+    padding: 10px;
+    margin: 10px 0;
+    color: #444;
+}
+
+.tnp-tab-success {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-left: 3px solid green;
+    padding: 10px;
+    margin: 10px 0;
+    color: #444;
+}
+
+.tnp-tab-error {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-left: 3px solid red;
+    padding: 10px;
+    margin: 10px 0;
+    color: #444;
+}
+
+
+/*  CSS The Newsletter Team */
+
+/* CSS Tips */
+
+.tnp-tip {
+    margin-top: 5px;
+}
+
+.tip-button {
+    padding: 0px 5px;
+    color: #FD5F65;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 10px;
+    border: 1px red solid;
+}
+
+.tip-content {
+    font-weight: 500;
+    font-size: 11px;
+    color: #999999;
+}
+
+/* CSS General Font Styles */
+
+
+
+
+/* CSS Themes Preview */
+
+.tnp-theme-preview {
+    display: inline-block;
+    text-align: center;
+}
+
+.tnp-theme-preview p {
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    color: #fff;
+}
+
+.tnp-theme-preview img:hover {
+    box-shadow: 3px 3px 8px 2px #293848;
+}
+
+.tnp-theme-preview img {
+    border-radius: 10px;
+    height: 190px;
+    width: auto;
+}
+
+.tnp-theme-preview .tnp-theme-composer {
+    height: 250px;
+    width: auto;
+}
+
+.tnp-theme-preview .tnp-theme-html {
+    width: auto;
+}
+
+
+
+
+
+/* Global buttons styles */
+.wp-core-ui .button-secondary, .wp-core-ui .button-primary {
+    background-color: var(--tnp-blue);
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    margin: 0px 2px;
+    width: auto;
+}
+
+.wp-core-ui .button-secondary {
+    background-color: #ccc;
+}
+
+.wp-core-ui .button-secondary:hover, .wp-core-ui .button-primary:hover {
+    background-color: #5DADE2;
+    color: #fff;
+    width: auto;
+}
+
+span.wp-media-buttons-icon:before {
+    color: #fff;
+}
+
+/* Responsive Video Embeds */
+
+.tnp-video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.tnp-video-container iframe,
+.tnp-video-container object,
+.tnp-video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Colors Palette */
+
+.bg-white {
+    background-color: #FFF;
+}
+
+.orange {
+    background-color: #F39C12; /*Orange #F39C12 */
+}
+
+.blue {
+    background-color: #2980B9; /* Blue #2980B9 */
+}
+
+.purple {
+    background-color: #8E44AD; /* Purple #8E44AD */
+}
+
+.tnp-chart {
+    border: 1px solid #eee;
+    width: 100%;
+}
+
+/* Suggerimenti Oggetto + Inserimento Emoticons */
+
+.tnp-suggest-button {
+    margin-left: 8px;
+    border-radius: 3px;
+    background-color: #2980B9;
+    padding: 10px 15px 8px;
+    font-size: 14px;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.tnp-suggest-button:hover {
+    background-color: #3f8dbf;
+}
+
+.tnp-popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 10000;
+}
+
+.tnp-popup {
+    width: 40vw;
+    height: 66vh;
+    overflow: auto;
+    margin: 100px auto 0 auto;
+    background-color: #181818;
+    padding: 20px;
+    position: relative;
+}
+.tnp-popup-close {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #181818;
+    color: #fff;
+    font-size: 40px;
+    padding: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.tnp-subjects-header {
+    font-size: 16px;
+    color: #fff;
+    padding: 0px 70px 20px 20px;
+    border-bottom: 1px solid #282828;
+}
+
+#tnp-edit-subjects-list {
+    padding: 0px 70px 20px 20px;
+}
+
+#tnp-edit-subjects-list a {
+    padding: 5px;
+}
+
+#tnp-edit-subjects-list svg {
+    margin: 0px 10px 0px 0px;
+    vertical-align: middle;
+}
+
+.tnp-subject-category {
+    color: #565656;
+    margin: 25px 0px 10px 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+
+/* Stile selettore liste - Schermata di invio newsletter */
+
+.tnp-list-conditions p {
+    margin: 0px 10px;
+}
+
+/* Lists panel */
+.tnp-lists .tnp-notes {
+    margin: 0;
+    font-size: .9em;
+}
+
+/* Codemirror editor with preview */
+iframe.tnp-editor-preview-mobile {
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    box-shadow: 1px 1px 10px #777;
+    border-radius: 10px;
+    padding: 5px;
+    width: 320px;
+    height: 500px;
+    float: left;
+}
+
+iframe.tnp-editor-preview-desktop {
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #777;
+    padding: 15px;
+    width: 650px;
+    margin-right: 20px;
+    height: 500px;
+    float: left;
+}
+
+
+/* Form inserimento licenza in Addons Manager */
+
+#tnp-license-control  {
+    border-left: 5px solid #27ae60;
+    display: inline-block;
+    padding: 15px 20px;
+    margin-left: -10px;
+    margin-top: 15px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+#tnp-license-control form {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#tnp-license-control form input {
+    padding-left: 10px;
+}
+
+#tnp-license-control a {
+    border-bottom: none;
+    color: #27AE60;
+}
+
+
+/* Grid Helpers */
+
+.tnp-one-third {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tnp-two-thirds {
+    width: 59%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Progress bar */
+.tnp-progress {
+    display: flex;
+    height: 1.5rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #c9cccf;
+    border-radius: .25rem;
+    margin: 0px 0px 0px;
+    min-width: 100px;
+}
+
+.tnp-progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+}
+
+.tnp-progress--sent .tnp-progress-bar {
+    background-color: green;
+}
+
+.tnp-progress--error .tnp-progress-bar {
+    background-color: #E74C3C;
+}
+
+.tnp-progress-numbers {
+    text-align: center;
+    color: #666;
+    white-space: nowrap;
+    line-height: normal;
+}
+
+.tnp-progress-date {
+    color: #666;
+    font-style: italic;
+}
+
+/* Schedule buttons styles */
+
+#tnp-schedule-button {
+    background-color: #E67E22 !important;
+}
+
+#tnp-schedule-button:hover {
+    background-color: #ec913f !important;
+}
+
+.tnp-button-cancel {
+    background-color: #E74C3C !important;
+}
+
+/* Newsletter preview on targeting panel */
+.tnpc-preview {
+    margin-top: 10px;
+}
+
+.tnpc-preview .fake-browser-ui iframe {
+    width: 700px;
+}
+
+.tnpc-preview .fake-mobile-browser-ui iframe {
+    width: 320px;
+}
+
+.fake-browser-ui {
+    padding: 30px 0 0;
+    border-radius: 3px;
+    border-bottom: 10px solid #ccc;
+    background: #ddd;
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.fake-mobile-browser-ui {
+    padding: 30px 10px 37px;
+    border-radius: 10px;
+    border-bottom: 10px solid #ccc;
+    background: #ddd;
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+    margin-left: 30px;
+}
+
+.fake-browser-ui .frame {
+    display: block;
+    height: 25px;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+}
+
+.fake-mobile-browser-ui .frame {
+    display: block;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.fake-browser-ui span {
+    height: 12px;
+    width: 12px;
+    border-radius: 8px;
+    background-color: #eee;
+    border: 1px solid #dadada;
+    float: left;
+    margin: 0 0 0 4px;
+}
+
+.fake-mobile-browser-ui span {
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    display: block;
+    margin: auto;
+}
+
+.fake-browser-ui .bt-1 {
+    background-color: #ED594A;
+}
+
+.fake-browser-ui .bt-2 {
+    background-color: #FDD800;
+}
+
+.fake-browser-ui .bt-3 {
+    background-color: #5AC05A;
+}
+
+
+#tnp-body td a.tnp-table-link,
+#tnp-body td a.tnp-table-link:visited {
+    color: #444;
+}
+
+#tnp-body td a.tnp-table-link:hover {
+    color: #3498DB;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.tab-min-height {
+    min-height: 500px;
+}
+
+.tnp-control-all-languages-notice {
+    padding: 15px;
+    border: 1px dashed #999;
+}
+
+/* Spectru, color picker */
+
+/* Down arrow */
+.sp-dd {
+    display: none;
+}
+
+.sp-replacer {
+    width:  30px!important;
+    height: 30px!important;
+}
+
+
+/* Generic status badge for lists */
+
+span.tnp-status {
+    font-weight: bold;
+    line-height: normal;
+    padding: 3px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: .75rem;
+    border: 0;
+    white-space: nowrap;
+}
+
+
+/* Newsletter status */
+
+span.tnp-email-status {
+}
+
+span.tnp-email-status.tnp-email-status--new {
+    background-color: var(--tnp-status-purple-bg);
+    color: var(--tnp-status-purple);
+}
+
+span.tnp-email-status.tnp-email-status--paused {
+    background-color: var(--tnp-status-gray-bg);
+    color: var(--tnp-status-gray);
+}
+
+span.tnp-email-status.tnp-email-status--sending {
+    background-color: var(--tnp-status-orange-bg);
+    color: var(--tnp-status-orange);
+}
+
+span.tnp-email-status.tnp-email-status--scheduled {
+    background-color: var(--tnp-status-blue-bg);
+    color: var(--tnp-status-blue);
+}
+
+span.tnp-email-status.tnp-email-status--sent {
+    background-color: var(--tnp-status-green-bg);
+    color: var(--tnp-status-green);
+}
+
+span.tnp-email-status.tnp-email-status--error {
+    background-color: var(--tnp-status-red-bg);
+    color: var(--tnp-status-red);
+}
+
+
+/* Subscriber status */
+
+span.tnp-user-status {
+}
+
+.tnp-user-status--unsubscribed {
+    background-color: var(--tnp-status-gray-bg);
+    color: var(--tnp-status-gray);
+}
+
+.tnp-user-status--confirmed {
+    background-color: var(--tnp-status-green-bg);
+    color: var(--tnp-status-green);
+}
+
+.tnp-user-status--not-confirmed {
+    background-color: var(--tnp-status-purple-bg);
+    color: var(--tnp-status-purple);
+}
+
+.tnp-user-status--complained {
+    background-color: var(--tnp-status-red-bg);
+    color: var(--tnp-status-red);
+}
+
+.tnp-user-status--bounced {
+    background-color: var(--tnp-status-orange-bg);
+    color: var(--tnp-status-orange);
+}
+
+.tnp-user-status--unknown {
+    background-color: #000;
+    color: #fff;
+}
+
+.tnp-led-green {
+    color: var(--tnp-led-green);
+}
+
+.tnp-led-gray {
+    color: var(--tnp-led-gray);
+}
+
+.container {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.row:before,
+.row:after {
+    display: table;
+    content: " ";
+
+}
+.row:after {
+    clear: both;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-md-12 {width: 100%;}
+.col-md-11 {width: 91.66666667%;}
+.col-md-10 {width: 83.33333333%;}
+.col-md-9 {width: 75%;}
+.col-md-8 {width: 66.66666667%;}
+.col-md-7 {width: 58.33333333%;}
+.col-md-6 {width: 50%;}
+.col-md-5 {width: 41.66666667%;}
+.col-md-4 {width: 33.33333333%;}
+.col-md-3 {width: 25%;}
+.col-md-2 {width: 16.66666667%;}
+.col-md-1 {width: 8.33333333%;}
+
+@media all and (max-width: 1100px) {
+    .col-md-12 {width: 100%;}
+    .col-md-11 {width: 100%;}
+    .col-md-10 {width: 100%;}
+    .col-md-9 {width: 100%;}
+    .col-md-8 {width: 100%;}
+    .col-md-7 {width: 100%;}
+    .col-md-6 {width: 100%;}
+    .col-md-5 {width: 100%;}
+    .col-md-4 {width: 100%;}
+    .col-md-3 {width: 100%;}
+    .col-md-2 {width: 100%;}
+    .col-md-1 {width: 100%;}
+}/* Container of the top menu */
+
+#tnp-menu {
+    --tnp-menu-bg: #fff;
+    text-align: left;
+    min-width: 1200px;
+    padding-left: 0;
+    margin-top: 0px;
+    padding-top: 10px;
+    background-color: var(--tnp-menu-bg);
+    padding-left: 20px;
+    margin-right: -20px;
+    margin-left: -20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#tnp-menu a {
+    text-decoration: none;
+}
+
+#tnp-menu .tnp-header-logo {
+    height: 20px;
+}
+
+/* The menu */
+
+/* The logo */
+#tnp-menu > ul > li:first-child,
+#tnp-menu > ul > li:first-child a
+{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* Level 1 entry */
+#tnp-menu a {
+    text-decoration: none;
+    color: var(--tnp-text);
+    font-size: .75rem;
+    font-weight: normal;
+    line-height: normal;
+}
+
+#tnp-menu ul {
+    padding: 0 20px 0 0;
+    margin: 0; 
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    border: 0;
+}
+
+#tnp-menu ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#tnp-menu ul li {
+    float: left;
+    margin: 0 10px;
+    padding: 0; 
+    border: 0;
+}
+
+#tnp-menu ul li a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#tnp-menu ul li a i {
+    margin-right: 5px;
+}
+
+
+/* Second level */
+
+#tnp-menu ul ul {
+    display: none;
+    z-index: 10000;
+    padding: 0;
+    margin: 0;
+    background: var(--tnp-menu-bg);
+    border-radius: 0px;
+    position: absolute;  
+    padding-top: 20px;
+    padding-bottom: 15px;
+    box-shadow: 0 0px 5px #ccc;
+}
+
+#tnp-menu ul li:hover > ul {
+    display: block;
+}
+
+#tnp-menu ul ul li {
+    float: none; 
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+    text-transform: none;
+    line-height: 1.5em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#tnp-menu ul ul li:hover {
+    background: var(--tnp-text);
+    color: #fff;
+}
+
+#tnp-menu ul ul li a small {
+    display: block;
+    color: #666;
+    float: none !important;
+}
+
+#tnp-menu ul ul li a {
+    font-size: .9rem;
+    outline: 0;
+    box-shadow: 0;
+}	
+
+#tnp-menu ul ul li:hover a {
+    color: #fff;
+}
+
+#tnp-menu ul ul li a:focus,
+#tnp-menu ul ul li a:active
+{
+    outline: 0;
+    box-shadow: none;
+}
+
+#tnp-menu ul ul li a:hover small {
+    color: #ddd;
+}
+
+/* Removes menu icons by addons after the redesign */
+#tnp-menu ul ul li a i {
+    display: none;
+}
+
+/* Preserves menu warning icons */
+#tnp-menu ul ul li a i.tnp-menu-warning {
+    display: inline;
+}
+
+/* License button */
+
+#tnp-menu .tnp-licence-button {
+    border-left: 3px solid var(--tnp-green);
+    background-color: var(--tnp-green);
+    border: none;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    border-radius: 3px;
+}
+
+#tnp-menu .tnp-licence-button a {
+    color: #fff;
+}
+
+#tnp-menu .tnp-licence-button:hover {
+    background-color: var(--tnp-green-dark) !important;
+    border: none;
+}
+
+#tnp-menu .tnp-licence-button-red {
+    background-color: var(--tnp-red);
+    border: none;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    border-radius: 3px;
+}
+
+#tnp-menu .tnp-licence-button-red a {
+    color: #fff;
+}
+
+#tnp-menu .tnp-licence-button-red:hover {
+    background-color: var(--tnp-red-dark) !important;
+    border: none;
+}/* 
+    The head section of each administration page with title and introduction
+*/
+#tnp-heading {
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+/* Title */
+#tnp-heading h2 {
+    color: var(--tnp-title);
+    font-size: 1.5rem;
+    line-height: normal;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 0;
+    margin: 0px;
+    margin-bottom: 1rem;
+}
+
+#tnp-heading .tnp-title-help {
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    font-size: .8rem;
+    background-color: var(--tnp-blue-lighter);
+    border-radius: 3px;
+    padding: 5px 5px;
+    text-align: center;
+    line-height: normal;
+    color: var(--tnp-blue);
+    border: 1px solid var(--tnp-blue-light);
+    /*text-transform: uppercase;*/
+}
+
+/* Super title (used by some addons) */
+#tnp-heading h3 {
+    color: #666;
+    letter-spacing: 0.1rem;
+    font-size: .8rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-weight: 700;
+    padding: 0;
+    margin: 0px;
+}
+
+/* Introduction (not always present) */
+#tnp-heading p {
+    font-size: .9rem;
+    margin: 0 0 .7rem 0;
+    line-height: 1.3rem;
+}
+
+#tnp-heading a {
+    color: var(--tnp-blue-dark);
+    font-weight: bold;
+    /*border-bottom: 1px solid #fff;*/
+    text-decoration: none;
+}
+
+#tnp-heading p a:hover {
+    color: var(--tnp-blue);
+    /*border-bottom: 1px solid #27AE60;*/
+    text-decoration: underline;
+}
+
+#tnp-heading ul {
+    margin: 1em 0 1em 1em;
+    font-size: .9rem;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+#tnp-heading ul li {
+    line-height: normal;
+    margin: 0;
+}
+
+/* Style for WP global notices */
+#tnp-heading .notice p {
+    margin: 0.5em 0;
+    padding: 2px;
+}
+
+#tnp-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: transparent;
+    border-top: 1px solid #fff;
+}
+
+#tnp-footer div {
+    /*width: 33%;*/
+    /*display: inline-block;*/
+}
+
+#tnp-footer a {
+    color: var(--tnp-text);
+    text-decoration: none;
+}
+
+#tnp-footer a:hover {
+    color: #444;
+}
+
+#tnp-footer input[type="submit"] {
+    background-color: var(--tnp-green);
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+#tnp-footer form {
+    white-space: nowrap;
+}
+
+#tnp-footer li {
+    display: inline;
+    margin-right: 15px;
+    padding: 2px 5px 2px 5px;
+    border-left: 3px solid #2ECC71;
+}
+
+.tnp-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1024px;
+    margin-bottom: 30px;
+}
+
+.tnp-flow.tnp-flow-row {
+    flex-direction: row; 
+    width: 100%;
+}
+
+.tnp-flow>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tnp-flow>div.sources {
+    /*padding: 20px;*/
+    margin-bottom: 15px;
+    /*border: 1px dashed #999;*/
+}
+
+.tnp-flow-item {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 150px;
+    xmin-height: 70px;
+    color: #444 !important;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    padding-top: 10px;
+    margin: 7px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 0 3px #fff;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.tnp-flow-item.wide {
+    width: 250px;
+}
+.tnp-flow-item.inactive {
+    border: 1px dashed #ccc;
+    background-color: #f4f4f4;
+}
+
+.tnp-flow-arrow {
+    color: #666 !important;
+    font-size: 20px;
+    margin: 7px;
+}
+.tnp-flow-item.source {
+    height: auto;
+    min-height: fit-content;
+}
+.tnp-flow-item.compact {
+}
+
+/* Settings popup */
+
+.tnp-flow-fieldset {
+    display: none;
+    justify-content: center;
+    position: fixed;
+    max-width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000aa; 
+    z-index: 1000;
+}
+
+.tnp-flow-fieldset>div {
+    position: relative;
+    max-width: 100%;
+    width: 1024px;
+    /*overflow-y: auto;*/
+    height: fit-content;
+    max-height: 80%;
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 15px;
+    padding-top: 30px;
+    padding-right: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+    display: flex;
+    flex-direction: column;
+}
+
+.tnp-flow-fieldset>div>section {
+    overflow-y: auto;
+}
+
+.tnp-flow-fieldset>div>footer {
+    height: fit-content;
+    text-align: right;
+    padding-top: 20px;
+    flex-grow: 0;
+    padding-right: 15px;
+}
+
+.tnp-flow-fieldset i.fas.fa-times {
+    display: block;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #444;
+    padding: 5px;
+    border-radius: 50%;
+    width: 32px;
+    line-height: normal;
+    height: 32px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.tnp-flow-fieldset>div>p {
+    color: #000 !important;
+}
+.tnp-paginator {
+    margin: 10px 0px 5px 0px;
+}
+
+.tnp-paginator .button-secondary {
+    padding: 5px;
+    line-height: normal;
+    height: auto;
+    font-size: 12px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    vertical-align: baseline;
+}
+
+.tnp-paginator [value="Go"] {
+    background-color: #27AE60 !important;
+}
+
+.tnp-paginator [value="Go"]:hover {
+    background-color: #2ECC71 !important;
+}
+
+.tnp-paginator input {
+    /*background-color: #2C3E50;*/
+    /*border: none;*/
+    border-radius: 3px;
+    /*color: #fff;*/
+    padding: 5px;
+    line-height: normal;
+    font-size: 12px;
+    height: 25px;
+}
+/* Since #tabs has a white background, all elements should be made dark */
+
+#tnp-body .ui-tabs {
+    background-color: transparent;
+    border: 0!important;
+    padding: 0;
+    margin: 0;
+    min-width: 1024px;
+    max-width: 100%;
+}
+
+#tnp-body li.ui-tabs-tab {
+    margin-top: 0;
+}
+
+
+/* Navigation */
+
+#tnp-body .ui-tabs .ui-tabs-nav {
+    padding: 0;
+    margin: 0;
+    background-color: var(--tnp-blue-light);
+    border: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#tnp-body .ui-tabs .ui-tabs-nav .ui-tabs-tab {
+    border: none;
+    background: transparent;
+}
+
+/* Tab labels */
+#tnp-body .ui-tabs a.ui-tabs-anchor,
+#tnp-body .ui-tabs a.ui-tabs-anchor:visited {
+    color: #fff;
+    font-size: .9rem;
+    box-shadow: none;
+    font-weight: bold;
+    outline: 0;
+}
+
+/* Active tab label */
+#tnp-body .ui-tabs .ui-state-active a.ui-tabs-anchor,
+#tnp-body .ui-tabs .ui-state-active a.ui-tabs-anchor:visited {
+    color: #555;
+    background-color: #fff;
+}
+
+
+
+/* Tab panels */
+
+#tnp-body .ui-tabs .ui-tabs-panel {
+    padding: 15px!important;
+    background-color: #fff;
+}
+
+#tnp-body .ui-tabs .ui-tabs-panel h3,
+#tnp-body .ui-tabs .ui-tabs-panel h4,
+#tnp-body .ui-tabs .ui-tabs-panel p,
+#tnp-body .ui-tabs .ui-tabs-panel li,
+#tnp-body .ui-tabs .ui-tabs-panel input,
+#tnp-body .ui-tabs .ui-tabs-panel select,
+#tnp-body .ui-tabs .ui-tabs-panel textarea
+{
+    color: var(--tnp-text);
+    font-size: .9rem;
+}
+
+#tnp-body .ui-tabs .ui-tabs-panel h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: normal;
+}
+
+
+
+
+
+/* Classes used by controls. Should be prefixed with "tnpc-" */
+
+* {
+    --tnp-input-border: 1px solid #ddd;
+}
+
+/* Top page messages */
+.tnpc-error, .tnpc-warning, .tnpc-message,
+.tnp-error, .tnp-warning, .tnp-message {
+    position: relative;
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-left: 0px;
+    border-radius: 3px;
+    border: 1px solid var(--tnp-gray-light);
+}
+
+.tnpc-error, .tnp-error {
+    background-color: var(--tnp-red-lighter);
+    border-color: var(--tnp-red-light);
+    color: var(--tnp-red-darker);
+    /*border-left: 5px solid #dd0000;*/
+}
+
+.tnpc-warning, .tnp-warning {
+    background-color: var(--tnp-orange-lighter);
+    border-color: var(--tnp-orange-light);
+    color: var(--tnp-orange-darker);
+    /*border-left: 5px solid #ffb900;*/
+}
+
+.tnpc-message, .tnp-message {
+    background-color: var(--tnp-green-lighter);
+    /*border-left: 5px solid #46b450;*/
+    border-color: var(--tnp-green);
+    color: var(--tnp-green-darker);
+}
+
+#tnp-body .tnp-panel-help {
+    margin: 0;
+    float: right;
+}
+
+#tnp-body .tnp-panel-help a {
+    text-decoration: none;
+    font-weight: normal;
+    line-height: normal;
+    display: inline-block;
+    background-color: #aaa;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* Structure */
+
+/* Tables with controls */
+#tnp-body .form-table {
+    background-color: #fff;
+    margin-top: 1rem;
+    border-spacing: 4px;
+    border-collapse: separate;
+}
+
+#tnp-body .fieldset .form-table {
+    margin-top: 0;
+}
+
+#tnp-body .form-table h4,
+#tnp-body .form-table h3 {
+    color: var(--tnp-text);
+}
+
+/* WP has different padding for TH and TD (why???) */
+#tnp-body .form-table th, 
+#tnp-body .form-table td { 
+    padding: 1rem;
+}
+
+/* Field label */
+#tnp-body .form-table th {
+    /*text-align: right;*/
+    text-align: left;
+    position: relative;
+    font-weight: normal;
+    max-width: 200px;
+    width: 150px;
+    color: var(--tnp-text);
+    /*background-color: #ECF0F1;*/
+    vertical-align: top;
+    /*white-space: nowrap;*/
+    /*padding-top: 20px;*/
+}
+
+#tnp-body .form-table td {
+    width: auto;
+    vertical-align: top;
+}
+
+#tnp-body .form-table td .tnpc-grid th {
+    color: #666;
+}
+
+#tnp-body .form-table td span.description {
+    visibility: hidden;
+    font-size: 12px !important;
+    color: #666;
+    font-style: italic;
+}
+
+#tnp-body .form-table td:hover span.description {
+    visibility: visible;
+}
+
+#tnp-body .form-table th a.tnpc-field-help {
+    color: #000;
+    text-decoration: none;
+    /*text-decoration-style: dashed;*/
+    cursor: help;
+    position: absolute;
+    top: 20px;
+    right: -10px;
+}
+
+#tnp-body .form-table th a i {
+    color: #aaa;
+}
+
+#tnp-body .form-table th small {
+    font-weight: normal;
+    display: block;
+}
+
+#tnp-body select {
+    vertical-align: baseline;
+}
+
+#tnp-body .form-table input,
+#tnp-body .form-table textarea,
+#tnp-body .form-table select
+{
+    border: var(--tnp-input-border);
+}
+
+#tnp-body .form-table textarea {
+    width: 100%;
+}
+
+/* Subtables contained in a main form table TD */
+#tnp-body .form-table td table {
+    border: 0;
+    border-collapse: collapse;
+}
+
+#tnp-body .form-table td table th {
+    background-color: transparent;
+    text-align: right;
+    width: auto;
+    border: 0;
+    padding: 3px;
+    font-weight: normal;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+#tnp-body .form-table td table td {
+    background-color: transparent;
+    border: 0;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+#tnp-body .form-table td table.widefat th {
+    /*background-color: transparent;*/
+    text-align: left;
+    width: auto;
+    padding: 5px;
+    font-weight: normal;
+}
+
+#tnp-body .form-table td table.widefat td {
+    /*background-color: transparent;*/
+    padding: 5px;
+    vertical-align: middle;
+}
+
+/* Fix for select 2 */
+#tnp-body .form-table td ul {
+    margin-left: 0;
+}
+
+#tnp-body .select2 input {
+    border: 0;
+}
+
+#tnp-body .select2-container--default .select2-selection--multiple {
+    border: var(--tnp-input-border);
+}
+
+#tnp-body .tnpc-media {
+    position: relative;
+    width: 400px;
+    max-width: 100%;
+}
+
+#tnp-body .tnpc-media-remove {
+    position: absolute; 
+    top: 0px; 
+    right: 5px; 
+    background-color: transparent; 
+    color: var(--tnp-text) !important;  
+    font-size: 24px; 
+    display: block; 
+    text-decoration: none;
+    border: 0;
+    line-height: normal !important;
+}
+
+/* Set of checkboxes */
+.tnpc-checkboxes label {
+    display: block;
+    float: left;
+    width: 250px;
+    border: var(--tnp-input-border);
+    background-color: #fbfbfb;
+    margin-bottom: 5px;
+    padding: 5px;
+    white-space: nowrap;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.tnpc-lists label {
+    display: block;
+    padding: 5px 0;
+}
+
+.tnpc-lists label span {
+    border-radius: 3px;
+    color: #fff;
+    background-color: #aaa;
+    display: inline-block;
+    padding: 1px 5px;
+    min-width: 2em;
+    font-size: .9em;
+    text-align: center;
+}
+
+
+/* Hint text after a field */
+.tnpc-hint, p.description {
+    margin-top: 15px;
+    clear: both;
+    font-size: 12px !important;
+    color: #666;
+    font-style: italic;
+}
+
+/* Color picker */
+.tnpc-color {
+    width: 40px;
+    font-size: 12px;
+}
+
+/* Buttons */
+.tnpc-button, .tnpc-button:visited, .tnpc-button:hover, .tnpc-button:active {
+    min-width: 3em;
+    text-align: center;
+    color: #fff!important;
+    width: auto;
+}
+
+/* Lists select with triggers */
+.tnpc_lists_notes {
+    color: #999;
+    font-size: .9em;
+    padding: 0px 0 0 15px; 
+    border-left: 3px solid #888;
+    margin-top: 10px;
+}html {
+    --tnpf-col-padding: 0 10px;
+}
+
+.tnpf-form {
+    padding: 15px;
+    margin-top: 0;
+    color: #444;
+    background-color: #ECF0F1 !important;
+}
+
+.tnp-field-row, .tnpf-row {
+    clear: both;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.tnp-field-col-2, .tnpf-col-2, .tnpf-col-50 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+
+.tnp-field-col-3, .tnp-field-col-33, .tnpf-col-33 {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+
+.tnp-field-col-20, .tnpf-col-20 {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+
+.tnp-field-col-66, .tnpf-col-66 {
+    width: 66%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+
+.tnp-field-col-80, .tnpf-col-80 {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+
+.tnpf-field-box {
+    padding: 10px;
+    background-color: #eee !important;
+    border: 1px solid #bbb;
+}
+
+.tnpf-section {
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.tnpf-separator {
+    border-top: 1px solid #ddd;
+    line-height: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Single field container */
+.tnpf-field, .tnpf-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.tnpf-field select.tnpf-small,
+.tnpf-field select.tnp-small {
+    font-size: .9em;
+}
+
+.tnpf-field label.tnpf-label, 
+.tnpf-field label.tnp-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    color: #666;
+}
+
+.tnpf-row label.tnpf-row-label,
+.tnp-field-row label.tnp-row-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    border: 0;
+    margin: 0px 0px 0px 10px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    color: #666;
+}
+
+/* Compesate the negative row margin */
+.tnp-field-row label.tnp-row-label {
+    margin-left: 10px;
+}
+
+.tnpf-row .tnpf-field .tnpf-label,
+.tnpf-row .tnpf-field .tnp-label
+{
+    margin-top: 0;
+}
+
+.tnpf-field.tnpf-checkbox label {
+    display: inline;
+}
+
+/* Set of inlined field for font, size, color... */
+
+.tnpf-field:not(.tnp-colorpicker) input {
+    width: 100%;
+}
+
+.tnpf-field input[type=number] {
+    width: 100px;
+}
+
+.tnpf-field.tnpf-size input {
+    width: 60px;
+    display: inline;
+}
+
+.tnpf-field .tnp-padding-fields {
+    display: inline;
+}
+
+/* Four field for block padding selection */
+.tnpf-field .tnp-padding-fields input {
+    width: 40px;
+    display: inline;
+}
+
+.tnpf-field select {
+    width: auto!important;
+    color: #34495E;
+}
+
+.tnpf-field input[type=url] {
+    font-family: monospace;
+}
+
+.tnpf-field input[type=color] {
+    width: 40px;
+    min-height: 30px;
+    vertical-align: middle;
+}
+
+.tnpf-field input[type=submit] {
+    width: auto;
+}
+
+.tnpf-field input[type=checkbox] {
+    width: auto;
+}
+
+.tnpf-field.tnpf-button .tnpf-font-family {
+    font-size: 13px;
+}
+
+.tnpf-field.tnpf-button .tnpf-font-size {
+    font-size: 13px;
+}
+
+.tnpf-field.tnpf-button .tnpf-font-weight {
+    font-size: 13px;
+}
+
+.tnpf-field.tnp-categories {
+
+}
+
+/* The label for each category checkbox (should override the generic label appearance) */
+.tnpf-field.tnp-categories label {
+
+}
+
+.tnpf-description {
+    margin-top: 3px;
+    font-style: italic;
+    font-weight: normal;
+    color: #999999;
+    font-size: 12px;
+}
+/*
+Widgets are blocks used within rows and columns (bootstrap like) and identified by the
+class "tnp-widget"
+*/
+
+.tnp-widget {
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    background: #fff;
+    min-height: 320px;
+    color: #000;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.tnp-height-full {
+    height: 500px !important;
+}
+
+#tnp-body .tnp-widget p {
+    color: #000;
+    margin-left: 15px;
+}
+
+/* Widget title */
+.tnp-widget h3 {
+    letter-spacing: 0.05rem;
+    background-color: #2980B9;
+    color: #fff !important;
+    margin: 15px 0px;
+    padding: 9px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Buttons on widgets top bar */
+#tnp-body .tnp-widget h3 a,
+#tnp-body .tnp-widget h3 a:visited,
+#tnp-body .tnp-widget h3 a:hover {
+    color: #fff;
+}
+
+.tnp-widget h3.red {
+    background-color: darkred;
+}
+
+.tnp-widget h3.gray {
+    background-color: darkgray;
+}
+
+.tnp-widget.tnp-inactive {
+    color: #999 !important;
+    background-color: #ddd !important;
+}
+
+.tnp-widget.tnp-inactive h3 {
+    background-color: #999;
+    color: #ccc !important;
+}
+
+/* Widget title button */
+.tnp-widget h3 a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 2px 8px;
+    background-color: #26C281;
+    border-radius: 2px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+
+/* Widget title button hover */
+.tnp-widget h3 a:hover {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    background-color: #2ECC71;
+}
+
+.tnp-widget .inside li {
+    font-size: 12px;
+    margin: 10px;
+}
+
+.tnp-widget .inside ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.tnp-widget .tnp-note {
+    color: #999;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 10px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 10px;
+}
+
+
+/* Widgets with a placeholder image */
+
+.tnp-widget .tnp-placeholder {
+    padding: 10px;
+    text-align: center;
+}
+
+.tnp-widget .tnp-placeholder img {
+    max-width: 100%
+}
+
+
+/* Widgets with two numbers (primary and secondary)*/
+
+.tnp-widget.tnp-number {
+    text-align: center;
+    min-height: 0 !important;
+    height: 250px;
+}
+
+.tnp-widget .tnp-value {
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.tnp-widget .tnp-value-2 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* Icons and colors inside widgets */
+
+.tnp-icon {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.tnp-widget .tnp-icon i {
+    font-size: 40px;
+}
+
+.tnp-widget .tnp-blue {
+    color: #2980b9;
+}
+
+.tnp-widget .tnp-green {
+    color: #62cb31;
+}
+
+.tnp-widget .tnp-orange {
+    color: #ea6557;
+}
+
+.tnp-widget .tnp-red {
+    color: #dd3333;
+}
+
+.tnp-widget .tnp-gray {
+    color: #999;
+}
+
+
+/* Widefat tables inside a widget */
+
+#tnp-body .tnp-widget table.widefat {
+    margin: 10px 15px;
+    width: auto;
+}
+
+#tnp-body .tnp-widget.tnp-table table.widefat thead {
+    background-color: #fff !important;
+}
+
+#tnp-body .tnp-widget.tnp-table table.widefat thead th {
+    font-weight: bold;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.tnp-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.tnp-card {
+    flex: 1 0;
+    align-content: flex-start;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: #232D3B;
+    -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.tnp-card.tnp-card-col-2 {
+    flex: 0 0 calc(50% - 31px);
+}
+
+@media screen and (max-width: 700px) {
+    .tnp-card {
+        flex: 1 0 100%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    .tnp-card {
+        flex: 1 0 40%;
+    }
+}
+
+.tnp-card .tnp-card-title {
+    flex-basis: 100%;
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+
+.tnp-card .tnp-card-value {
+    flex-basis: 75%;
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.tnp-counter-animation.percentage {
+    display: inline-block;
+    min-width: 75px;
+}
+
+.tnp-card-button-container {
+    flex-basis: 100%;
+    margin-top: 60px;
+}
+
+.tnp-card-button-container a {
+    padding: 5px 18px;
+    font-size: 12px;
+    color: #FFF !important;
+    background-color: #2980B9;
+    border-radius: 4px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.tnp-card-button-container a:hover {
+    background-color: #2887c1;
+}
+
+.tnp-card-button-container a:hover {
+    color: #FFF !important;
+}
+
+.tnp-card-icon {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tnp-card .green {
+    color: #81B4A3;
+}
+
+.tnp-card .yellow {
+    color: #F8CF61;
+}
+
+.tnp-card .red {
+    color: #F36C7F;
+}
+
+.tnp-card .tnp-card-description {
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 500;
+    color: #7f8286;
+    margin-top: 20px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue',
+    Ubuntu, Arial, sans-serif;
+}
+
+.tnp-card .tnp-card-description .value {
+    color: #919498;
+    font-weight: 700;
+}
+
+.tnp-card .tnp-card-chart {
+    flex-basis: 100%;
+}
+
+.tnp-card .tnp-card-chart .mini-chart {
+    max-height: 200px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.tnp-card .tnp-card-chart.h-400 {
+    height: 400px;
+}
+
+.tnp-card-table,
+.tnp-card-table table {
+    width: 100%;
+}
+
+.tnp-card-table table {
+    border-collapse: collapse;
+}
+
+.tnp-card-table table .w-25 {
+    width: 25%;
+}
+
+.tnp-card-table table .w-50 {
+    width: 50%;
+}
+
+.tnp-card-table table .w-75 {
+    width: 75%;
+}
+
+.tnp-card-table table .w-33 {
+    width: 33%;
+}
+
+.tnp-card-table table .w-20 {
+    width: 20%;
+}
+
+.tnp-card-table table .w-10 {
+    width: 10%;
+}
+
+.tnp-card-table table .w-80 {
+    width: 80%;
+}
+
+.tnp-card-table table tbody::before {
+    content: '';
+    display: table-row;
+    height: 15px;
+}
+
+.tnp-card-table table tbody tr {
+    line-height: 30px;
+}
+
+#tnp-body .tnp-card-table table tbody td,
+.tnp-card-table table tbody td {
+    color: #FFF;
+}
+
+.tnp-card-table table tbody tr:nth-child(even) {
+    background-color: #26303E;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+.tnpc-toasts {
+    position: fixed;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+
+.tnpc-toasts>div {
+    color: #fff;
+    background-color: var(--tnp-color-green);
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 15px;
+    min-width: 250px;
+    width: fit-content;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.tnp-toast-main-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    z-index: 9991;
+    pointer-events: none;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tnp-toast-main-wrapper .notification {
+    display: block;
+    overflow: hidden;
+    pointer-events: auto;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .25);
+    position: relative;
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 2px;
+    max-width: 300px;
+    transform: translateY(25%);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    font-weight: bold;
+    animation: .4s ease-in forwards;
+    background-color: #FFF;
+}
+
+.tnp-toast-main-wrapper .notification:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+}
+
+.tnp-toast-main-wrapper .notification.push-up {
+    animation-name: notification-fadeinup;
+}
+
+.tnp-toast-main-wrapper .notification.push-down {
+    animation-name: notification-fadeindown;
+}
+
+.tnp-toast-main-wrapper .notification.pop-down {
+    transform: translateY(0);
+    animation: notification-fadeoutdown .4s forwards;
+    animation-delay: .25s;
+}
+
+.tnp-toast-main-wrapper .notification.pop-up {
+    transform: translateY(0);
+    animation: notification-fadeoutup .4s forwards;
+    animation-delay: .25s;
+}
+
+.tnp-toast-main-wrapper .notification.top-to-bottom {
+    margin-bottom: 20px;
+}
+
+.tnp-toast-main-wrapper .notification.bottom-to-top {
+    margin-top: 20px;
+}
+
+.tnp-toast-main-wrapper .notification.notification-success:after {
+    background-color: #46b450;
+}
+
+.tnp-toast-main-wrapper .notification.notification-error:after {
+    background-color: #dd0000;
+}
+
+.tnp-toast-main-wrapper .notification.notification-info:after {
+    background-color: #0073aa;
+}
+
+.tnp-toast-main-wrapper .notification.notification-warning:after {
+    background-color: #ffb900;
+}
+
+@keyframes notification-fadeinup {
+    0% {
+        opacity: 0;
+        transform: translateY(25%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes notification-fadeoutdown {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(25%);
+    }
+}
+
+@keyframes notification-fadeindown {
+    0% {
+        opacity: 0;
+        transform: translateY(-25%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes notification-fadeoutup {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-25%);
+    }
+}
+.tnp-modal {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.tnp-modal.open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    animation: modal-in .4s ease-out forwards;
+}
+
+@keyframes modal-in {
+    100% {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+.tnp-modal.on-close {
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color .4s ease-out;
+}
+
+.tnp-modal-container {
+    position: relative;
+    padding: 50px;
+    border-radius: 3px;
+    background-color: white;
+    width: 400px;
+    min-height: 100px;
+    max-height: 400px;
+    overflow-y: auto;
+    animation: modal-fadein .4s ease-out forwards;
+}
+
+.tnp-modal-container.on-close {
+    animation: modal-fadeout .4s ease-in forwards;
+}
+
+@keyframes modal-fadein {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes modal-fadeout {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+
+.tnp-modal-close {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.tnp-modal-confirm {
+    margin: 10px 0 0 0;
+}
+
+.tnp-modal-confirm button {
+    float: right;
+}
+
+.tnp-modal .button-danger {
+    background-color: darkred;
+    color: #ffffff;
+    text-shadow: none;
+    width: auto;
+}
+
+.tnp-modal .button-danger:hover {
+    background-color: darkred;
+}
+
+
+/* TNP MODAL 2 */
+.tnp-modal2 {
+    display: none;
+    position: fixed; 
+    z-index: 100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.tnp-modal2.open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    animation: modal-in .4s ease-out forwards;
+}
+
+.tnp-modal2__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    background-color: white;
+    width: 400px;
+    min-height: 100px;
+    max-height: 400px;
+    overflow-y: hidden;
+    animation: modal-fadein .4s ease-out forwards;
+}
+
+.tnp-modal2__header {
+    padding: 20px 50px;
+    background-color: #ECF0F1!important;
+    position: relative;
+    text-align: center;
+}
+
+.tnp-modal2__header h2{
+    margin: 0;
+}
+
+.tnp-modal2__body {
+    overflow-y: auto;
+    padding: 2rem;
+    flex: 1 1 auto;
+}
+
+.tnp-modal2__close {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.tnp-modal2__close:before {
+    content: '×';
+}
+
+.tnp-modal2.on-close {
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color .4s ease-out;
+}
+
+.tnp-modal2.on-close .tnp-modal2__content {
+    animation: modal-fadeout .4s ease-in forwards;
+}
+
+.tnp-modal2__body .row {
+    display: flex;
+}
+
+.tnp-modal2__body .col {
+    flex: 1;
+}
+

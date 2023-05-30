@@ -1,0 +1,556 @@
+/*
+Theme Name: Diaco
+Theme URI: https://smart.commonsupport.com/diaco/
+Author: SmartDataSoft
+Author URI: https://smartdatasoft.com/
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: WordPress 4.9.6
+Version: 1.2
+License: GNU General Public License v2 or later aand Themeforeset licence
+License URI: LICENSE
+Text Domain: diaco
+Tags: one-column,editor-style, featured-images,  sticky-post, threaded-comments, translation-ready
+
+*/
+
+
+/* Css For Diaco */
+
+
+/************ TABLE OF CONTENTS ***************
+1. Fonts
+2. Reset
+3. Global
+4. Main Header
+5. Main Slider 
+6. Welcome Section
+7. Service Section
+9. Takecare Section
+8. Gallery Section
+10. Team Section
+11. Clients Section
+12. About Section
+14. News Section
+15. Testimonial Section
+16. Contact Section
+19. Main Footer
+20. Footer Bottom
+21. Header Style Two
+22. Slider Style Two
+23. About Style Two
+24. Team Style Two
+25. Chooseus Section
+26. Healthcare Section
+27. Pricing Section
+28. Google Map Section
+29. Cta Section
+30. About Page
+31. Page Title
+32. Page Info
+33. About Style Three
+34. Faq Section
+35. Error Section
+36. Service Page
+37. Service Page Section
+38. Single Service Page
+39. Single Service Content
+40. Gallery Page
+41. Our Blog/Blog Page
+42. Blog Grid
+43. Blog-Single
+44. Contact Page
+45. Contact Section
+46. Google Map
+
+
+**********************************************/
+
+
+/* use style sheet */
+
+
+/*** 
+
+====================================================================
+  Reset
+====================================================================
+
+ ***/
+
+
+a:hover {
+    color: #c6a47e;
+}
+
+.scroll-top {
+    background: #c6a47e;
+}
+
+.sec-title .top-title {
+    color: #c6a47e;
+}
+
+.main-menu .navigation>li.current>a,
+.main-menu .navigation>li:hover>a {
+    color: #c6a47e;
+}
+
+.main-menu .navigation>li>ul {
+    border-top: 3px solid #c6a47e;
+}
+
+.main-menu .navigation>li>ul>li:hover {
+    background: #c6a47e;
+    border-bottom: 1px solid #c6a47e;
+}
+
+.main-menu .navigation>li>ul>li>ul {
+    border-top: 3px solid #c6a47e;
+}
+
+.main-menu .navigation>li>ul>li>ul>li:hover>a {
+    background: #c6a47e;
+}
+
+.sticky-header .main-menu .navigation>li.current>a,
+.sticky-header .main-menu .navigation>li:hover>a {
+    background: #c6a47e;
+}
+
+.hidden-bar .social-links li a:hover {
+    color: #c6a47e;
+}
+
+.main-slider h1 span {
+    color: #c6a47e;
+}
+
+.tp-leftarrow.tparrows.metis:hover:before,
+.nav-style-one .owl-nav .owl-prev:hover:before {
+    border-color: #c6a47e;
+}
+
+.tp-leftarrow.tparrows.metis:after,
+.nav-style-one .owl-nav .owl-prev:after {
+    background: #c6a47e;
+}
+
+.tp-rightarrow.tparrows.metis:hover:before,
+.nav-style-one .owl-nav .owl-next:hover:before {
+    border-color: #c6a47e;
+}
+
+.tp-rightarrow.tparrows.metis:after,
+.nav-style-one .owl-nav .owl-next:after {
+    background: #c6a47e;
+}
+
+.scroll-btn-flip:after {
+    color: #c6a47e;
+}
+
+.mouse-btn-down:hover .scroll-arrow:before {
+    border-right: 2px solid #c6a47e;
+    border-bottom: 2px solid #c6a47e;
+}
+
+.scroll-arrow:after {
+    background: #c6a47e;
+}
+
+.about-section .count-text:before {
+    background: #c6a47e;
+}
+
+.about-section .content-box a:hover {
+    color: #c6a47e;
+}
+
+.service-block-one .inner-box .caption-box a:hover {
+    color: #c6a47e;
+}
+
+.service-block-one .inner-box .overlay-box h4 a:hover {
+    color: #c6a47e;
+}
+
+.video-section .video-gallery .text {
+    background: #c6a47e;
+}
+
+.work-section .product-tab-btns li.active-btn,
+.work-section .product-tab-btns li:hover {
+    color: #c6a47e;
+}
+
+.work-section .p-tabs-content .single-item .tab-content .lower-content h2 a:hover {
+    color: #c6a47e;
+}
+
+.project-block-one .inner-box .icon-box a:hover {
+    color: #c6a47e;
+}
+
+.project-section .load-btns a {
+    color: #c6a47e;
+}
+
+.team-section .line-overlay .line:after,
+.team-section .line-overlay .line:before {
+    background: #c6a47e;
+}
+
+.team-block-one:hover .image-box {
+    border: 1px solid #c6a47e;
+}
+
+.team-block-one .lower-content h3 a:hover {
+    color: #c6a47e;
+}
+
+.news-block-one .lower-content h4.post-title a:hover {
+    color: #c6a47e;
+}
+
+.main-footer .logo-widget .social-links li a {
+    color: #c6a47e;
+}
+
+.main-footer .logo-widget .social-links li a:hover {
+    background: #c6a47e;
+}
+
+.main-footer .post-widget .post a:hover {
+    color: #c6a47e;
+}
+
+.main-footer .gallery-widget .widget-content .list li {
+    background: #c6a47e;
+}
+
+.main-footer .contact-widget .list li a:hover {
+    color: #c6a47e;
+}
+
+.main-footer .contact-widget .list li span {
+    color: #c6a47e;
+}
+
+.main-footer .footer-bottom .copyright a {
+    color: #c6a47e;
+}
+
+
+/*** 
+
+====================================================================
+                        Home-Page-Two
+====================================================================
+
+***/
+
+
+/** slider-style-two **/
+
+
+.about-style-two .content-box a:hover {
+    color: #c6a47e;
+}
+
+.service-style-two .inner-content .link a:hover {
+    border: 1px solid #c6a47e;
+    background: #c6a47e;
+}
+
+.work-block-one h4 a:hover {
+    color: #c6a47e;
+}
+
+.project-block-two .content-box h2 a:hover {
+    color: #c6a47e;
+}
+
+.project-style-two .view-btn a:hover {
+    color: #c6a47e;
+}
+
+.video-style-two .inner-content .top-text {
+    color: #c6a47e;
+}
+
+.video-style-two .inner-content .video-link:hover {
+    color: #c6a47e;
+}
+
+.recent-project .load-more a {
+    color: #c6a47e;
+}
+
+.call-to-action .inner-content .appointment-form .form-group button:hover {
+    color: #c6a47e;
+}
+
+.call-to-action .inner-content .appointment-form .form-group input:focus,
+.call-to-action .inner-content .appointment-form .form-group textarea:focus {
+    border: 1px solid #c6a47e;
+}
+
+.service-block-two:hover .icon-box {
+    color: #c6a47e;
+}
+
+.service-block-two h5 a:hover {
+    color: #c6a47e;
+}
+
+/*** 
+
+====================================================================
+                        Home-Page-Five
+====================================================================
+
+***/
+
+.project-style-two.black-bg .view-btn a:hover {
+    color: #c6a47e;
+}
+
+
+/*** 
+
+====================================================================
+                        Home-Page-Five
+====================================================================
+
+***/
+
+
+/** slider-style-five **/
+
+.project-block-one .lower-content h4 a:hover {
+    color: #c6a47e;
+}
+
+.pricing-table:hover {
+    border-top: 5px solid #c6a47e;
+}
+
+.pricing-table .table-header .price {
+    color: #c6a47e;
+}
+
+.pricing-table .table-content li:before {
+    color: #c6a47e;
+}
+
+.pricing-table .table-content li:before {
+    color: #c6a47e;
+}
+
+.pricing-column:last-child .pricing-table .table-content li:nth-child(5):before,
+.pricing-column:last-child .pricing-table .table-content li:last-child:before {
+    color: #c6a47e;
+}
+
+.pricing-table .table-footer a:hover {
+    color: #c6a47e;
+}
+
+.project-page-07 .lower-content .load-btn a:hover {
+    color: #c6a47e;
+}
+
+.project-page-10 .load-more a {
+    color: #c6a47e;
+}
+
+.single-project .info-content li a:hover {
+    color: #c6a47e;
+}
+
+.single-progress-box .progress-bar {
+    background-color: #c6a47e;
+}
+
+.about-style-two.single-team-page .content-box .info li {
+    color: #c6a47e;
+}
+
+
+/** education-section **/
+
+
+.education-section .inner-content .single-item .content-box span {
+    color: #c6a47e;
+}
+
+
+
+/*** 
+
+====================================================================
+                        Faq-Page
+====================================================================
+
+***/
+
+
+.coming-soon .inner-content .text a {
+    color: #c6a47e;
+}
+
+.error-section .content-box p a {
+    color: #c6a47e;
+}
+
+.error-section input:focus+button,
+.error-section button:hover {
+    color: #c6a47e;
+}
+
+.error-section input:focus {
+    border: 1px solid #c6a47e;
+}
+
+
+/*** 
+
+====================================================================
+                        Blog-Page
+====================================================================
+
+***/
+
+
+.sidebar-page-container .news-block-one .lower-content .link a:hover {
+    color: #c6a47e;
+}
+
+.sidebar-search .widget-content .form-group input:focus+button,
+.sidebar-search .widget-content button:hover {
+    color: #c6a47e;
+}
+
+.sidebar-search .widget-content .form-group input:focus {
+    border: 1px solid #c6a47e;
+}
+
+.sidebar-page-container .sidebar .sidebar-categories .list li a:hover,
+.sidebar-page-container .sidebar .widget ul li a:hover {
+    color: #c6a47e;
+}
+
+.sidebar-page-container .sidebar .sidebar-post .post .thumb {
+    background: #c6a47e;
+}
+
+
+/*** 
+
+====================================================================
+                        Cooming-Soon-Page
+====================================================================
+
+***/
+
+
+.sidebar-page-container .sidebar .sidebar-post .post h5 a:hover {
+    color: #c6a47e;
+}
+
+.sidebar-page-container .widget .social-links li a:hover {
+    color: #c6a47e;
+}
+
+.blog-single .blog-single-content .post-share-option .social-links li a:hover {
+    background: #c6a47e !important;
+}
+
+.blog-single .blog-single-content .post-share-option .social-share .share a:hover {
+    background: #c6a47e;
+}
+
+.blog-single .blog-single-content .post-controls .inner .nav-previous a:hover,
+.blog-single .blog-single-content .post-controls .inner .nav-next a:hover {
+    color: #c6a47e;
+}
+
+.blog-single .blog-single-content .post-controls .scroll-btn:hover {
+    color: #c6a47e;
+}
+
+.blog-single .blog-single-content .post-controls .scroll-btn i {
+    color: #c6a47e;
+}
+
+.blog-single .blog-single-content .author-box .author-inner .author-content .info-box a {
+    color: #c6a47e;
+}
+
+.comments-form-area .form-group input:focus,
+.comments-area .form-group input:focus,
+.comments-form-area .form-group textarea:focus,
+.comments-area .form-group textarea:focus {
+    border: 1px solid #c6a47e;
+}
+
+.logged-in-as a {
+    color: #c6a47e;
+}
+
+.comments-form-area .comment-form .message-btn button:hover {
+    background: #c6a47e;
+}
+
+.contact-info-section .info-box .single-info:hover .icon-box {
+    color: #c6a47e;
+}
+
+.contact-info-section .info-box .single-info a:hover {
+    color: #c6a47e;
+}
+
+.contact-form-area .form-group input:focus,
+.contact-form-area .form-group textarea:focus {
+    border: 1px solid #c6a47e;
+}
+
+.contact-form-area .form-group button {
+    background: #c6a47e;
+}
+
+.comments-area .comment-box .comment-reply-link {
+    color: #c6a47e;
+}
+
+.main-footer .gallery-columns-3 .gallery-item .gallery-icon {
+    background: #c6a47e;
+}
+
+.page-links a:hover,
+.page-links .current,
+.page-links a.active,
+.pagination .nav-links a:hover,
+.pagination .nav-links .current,
+.pagination .nav-links a.active {
+    border-color: #c6a47e;
+    background-color: #c6a47e;
+}
+
+.blog-single .blog-single-content .post-share-option .tags li a:hover,
+.tagcloud a:hover {
+    background-color: #c6a47e;
+}
+
+select {
+    border: 1px solid #c6a47e;
+}
+
+a {
+    color: #c6a47e;
+}
+
+.post-password-form input {
+    border: 1px solid #c6a47e;
+}
+

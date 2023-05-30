@@ -1,0 +1,75 @@
+{
+  "name": "Your favourite band tour dates",
+  "blocks": [
+    {
+      "block": "header",
+      "options": {
+      }
+    },
+    {
+      "block": "heading",
+      "options": {
+        "text": "The Best Show Ever Soon Near You",
+        "font_size": 30
+      }
+    },
+    {
+      "block": "text",
+      "options": {
+        "html": "<p style=\"text-align: center;\"><span style=\"font-size: 16px; font-family: arial,helvetica,sans-serif;\">We just started our world wide tour and e are really exited to meet you in one of the following tour dates. Find the nearest city and be sure to lock your seat in advance.</span></p>",
+        "block_padding_left": 30,
+        "block_padding_right": 30
+      }
+    },
+    {
+      "block": "cta",
+      "options": {
+        "background": "#C97B6F",
+        "text": "Get your free ticket"
+      }
+    },
+    {
+      "block": "image",
+      "options": {
+        "placeholder": "{placeholder_base_url}/tour/images/tour.jpg"
+      }
+    },
+    {
+      "block": "heading",
+      "options": {
+        "text": "Find your date",
+        "font_size": 24
+      }
+    },
+    {
+      "block": "text",
+      "options":
+        {
+          "font_family":"Helvetica, Arial, sans-serif",
+          "block_padding_top":"10",
+          "block_padding_bottom":"20",
+          "block_padding_left":"30",
+          "block_padding_right":"30",
+          "html": "<ul>\n<li>23rd May, San Francisco</li>\n<li>1st June, London</li>\n<li>16th June, Rome</li>\n<li>1st July, Санкт-Петербург (Sankt-Peterburg)</li>\n<li>14th July, नई दिल्ली (New Delhi)</li>\n</ul>"
+        }
+    },
+    {
+      "block": "cta",
+      "options": {
+        "background": "#C97B6F",
+        "text": "Book now"
+      }
+    },
+    {
+      "block": "footer",
+      "options": {
+      }
+    },
+    {
+      "block": "canspam",
+      "options": {
+        "block_background": "#ececec"
+      }
+    }
+  ]
+}

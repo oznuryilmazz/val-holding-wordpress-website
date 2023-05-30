@@ -1,0 +1,11 @@
+div.tnp-users-search {
+    margin-bottom: 20px;
+}
+
+span.tnp-user-status {
+    display: inline-block;
+    width: 150px;
+    max-width: 100%;
+    text-align: center;
+}
+

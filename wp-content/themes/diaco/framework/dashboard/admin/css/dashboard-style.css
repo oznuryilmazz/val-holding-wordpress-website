@@ -1,0 +1,196 @@
+.about-wrap #setting-error-notice {
+    display: block !important;
+    max-width: calc(100% - 205px);
+}
+
+.svg .envato-theme-license-logo.wp-badge {
+    background-image: url("../images/logo.png");
+    background-position: center center;
+    background-color: #e3e3e3;
+    background-size: contain;
+}
+body .ui-tooltip {
+    border-width: 2px;
+}
+.ui-tooltip {
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+    box-shadow: 0 0 5px #aaa;
+    background: #000;
+    color: #fff;
+}
+mark {
+    background: transparent none repeat scroll 0 0;
+}
+.value_need_increase {
+    background: red none repeat scroll 0 0;
+}
+.value_success{
+    background: #20b25a none repeat scroll 0 0;
+}
+.value_success,.value_need_increase {
+    border-radius: 5px;
+    color: black;
+    float: left;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+#debug-report {
+    display: none;
+}
+.updated.electrician-message.inline {
+    border-left: 0 none;
+    margin: 0;
+}
+.electrician_status_table {
+    margin-top: 20px !important;
+}
+
+.systemerrorshow_notification {
+    background: red none repeat scroll 0 0;
+    border-radius: 50%;
+    font-size: 13px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    width: 20px;
+}
+.systemerrorshow_notification_count {
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nav-tab.nav-tab-active {
+    position: relative;
+}
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+.about-wrap .feature-section .support-message p {
+    margin: 0;
+    max-width: 100%;
+}
+.about-wrap #getting-started .feature-section {
+    padding: 0;
+}
+#envato_activate_checkbox {
+    display: block;
+ }
+ .envato_theme_theme_license_activate_envato_div,.envato_theme_theme_license_deactivate_envato_div{
+    width: 220px;
+ }
+.envato_theme_theme_license_activate_envato,.envato_theme_theme_license_deactivate_envato {
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    will-change: transform;
+    transition: all .2s ease;
+    border: 2px solid #FF5126;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    color: #FF5126;
+    outline: none;
+    text-align: center;
+}
+.envato_theme_theme_license_deactivate_envato {
+    width: 220px;
+ }
+.envato_theme_theme_license_activate_envato:hover, .envato_theme_theme_license_deactivate_envato:hover {
+    background: #FF5126;
+    color: #ffffff;
+}
+.envato_theme_theme_license_activate_envato:active,.envato_theme_theme_license_deactivate_envato:active {
+    font-size: 15px;
+    transform: translateY(1px);
+}
+.envato_theme_theme_license_activate_envato.active,.envato_theme_theme_license_deactivate_envato.active {
+    font-size: 0;
+    border-radius: 25px;
+    width: 50px;
+    background: transparent;
+}
+.envato_theme_theme_license_activate_envato.loader,.envato_theme_theme_license_deactivate_envato.loader {
+    border-right: 2px solid #ffffff;
+    animation: loader .4s linear infinite;
+}
+/* 
+.envato_theme_theme_license_activate_envato.success,.envato_theme_theme_license_deactivate_envato.success {
+   
+    border-color: #FF5126;
+    font-size: 14px;
+} */
+
+@keyframes loader {
+    0% {
+        transform: rotateZ(0);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+a.button.envato_theme_theme_license_manage {
+    margin-top: 10px;
+}
+.envato_theme_theme_license_activate_envato_div+p {
+    margin-top: 10px !important;
+}
+
+
+.feature-section {
+    background-color: #fff;
+    padding: 30px !important;
+}
+.diaco_page_envato-theme-license-support .nav-tab,
+.diaco_page_envato-theme-license-one-click-demo-import .nav-tab,
+.diaco_page_envato-theme-license-install-required-plugins .nav-tab,
+.diaco_page_envato-theme-license-system-status .nav-tab,
+.diaco_page_envato-theme-license-product-registration .nav-tab,
+#envato-theme-license-dashboard .nav-tab {
+    border: none;
+    background: #004274;
+    color: #fff;
+    padding-right: 30px;
+    padding-left: 32px;
+    font-size: 18px;
+    line-height: 1.33333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0;
+}
+.diaco_page_envato-theme-license-support .nav-tab.nav-tab-active,
+.diaco_page_envato-theme-license-one-click-demo-import .nav-tab.nav-tab-active,
+.diaco_page_envato-theme-license-install-required-plugins .nav-tab.nav-tab-active,
+.diaco_page_envato-theme-license-system-status .nav-tab.nav-tab-active,
+.diaco_page_envato-theme-license-product-registration .nav-tab.nav-tab-active,
+#envato-theme-license-dashboard .nav-tab.nav-tab-active {
+    background-color: #fff;
+    color: #004274;
+    font-weight: 700;
+}
+.about-wrap .nav-tab {
+    padding-right: 30px;
+    padding-left: 32px;
+    font-size: 18px;
+    line-height: 1.33333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0;
+}
+.nav-tab-wrapper {
+    margin-bottom: 0;
+}
+.about-wrap {
+    margin: 0;
+}
+.feature-section .col {
+    margin-bottom: 40px;
+}

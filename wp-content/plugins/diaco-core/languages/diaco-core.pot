@@ -1,0 +1,1307 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Diaco\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-09 11:21+0600\n"
+"PO-Revision-Date: 2018-07-18 10:21+0600\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: SmartDataSoft <support@smartdatasoft.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_html_e;esc_attr_e;"
+"esc_html__\n"
+"X-Poedit-Basepath: H:/xampp/htdocs/wp-themes/diaco/wp-content/plugins/diaco-"
+"core\n"
+"Last-Translator: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: elementor-addons/diaco-elementor.php:158
+msgid "Your installed PHP Version is: "
+msgstr ""
+
+#: elementor-addons/diaco-elementor.php:159
+msgid ""
+"The <strong>Team Members for Elementor</strong> plugin requires PHP version "
+"<strong>"
+msgstr ""
+
+#: elementor-addons/diaco-elementor.php:159
+msgid "</strong> or greater."
+msgstr ""
+
+#: elementor-addons/diaco-elementor.php:178
+msgid "<h1>An Error Occured</h1>"
+msgstr ""
+
+#: elementor-addons/diaco-elementor.php:179
+msgid "<h2>Your installed PHP Version is: "
+msgstr ""
+
+#: elementor-addons/diaco-elementor.php:180
+msgid ""
+"You should update your PHP software or contact your host regarding this "
+"matter.</p>"
+msgstr ""
+
+#: elementor-addons/diaco-elementor.php:181
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: elementor-addons/includes/functions.php:12
+msgid "Diaco"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaca-about-agent.php:11
+msgid "About Agent"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaca-about-agent.php:27
+#: elementor-addons/includes/widgets/diaco-about-us.php:27
+#: elementor-addons/includes/widgets/diaco-heading.php:27
+#: elementor-addons/includes/widgets/diaco-image-box.php:27
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:27
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:27
+#: elementor-addons/includes/widgets/diaco-prallax-video.php:27
+msgid "content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaca-about-agent.php:33
+#: elementor-addons/includes/widgets/diaco-heading.php:33
+#: elementor-addons/includes/widgets/diaco-work-tab-slider.php:34
+msgid "Heading"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaca-about-agent.php:40
+msgid "Agent Name"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaca-about-agent.php:43
+#: elementor-addons/includes/widgets/diaca-about-agent.php:64
+#: elementor-addons/includes/widgets/diaco-about-us.php:43
+#: elementor-addons/includes/widgets/diaco-about-us.php:54
+#: elementor-addons/includes/widgets/diaco-about-us.php:65
+#: elementor-addons/includes/widgets/diaco-accordion.php:42
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:58
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:36
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:104
+#: elementor-addons/includes/widgets/diaco-price-box.php:103
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:62
+#: elementor-addons/includes/widgets/diaco-project-slider.php:84
+#: elementor-addons/includes/widgets/diaco-service-grid.php:64
+#: elementor-addons/includes/widgets/diaco-service-grid.php:74
+#: elementor-addons/includes/widgets/diaco-service-slider.php:82
+#: elementor-addons/includes/widgets/diaco-service-slider.php:133
+#: elementor-addons/includes/widgets/diaco-service-slider.php:143
+#: elementor-addons/includes/widgets/diaco-team.php:49
+#: elementor-addons/includes/widgets/diaco-timeline.php:53
+#: elementor-addons/includes/widgets/diaco-work-block.php:42
+msgid "Default description"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaca-about-agent.php:44
+#: elementor-addons/includes/widgets/diaca-about-agent.php:65
+#: elementor-addons/includes/widgets/diaco-about-us.php:44
+#: elementor-addons/includes/widgets/diaco-about-us.php:55
+#: elementor-addons/includes/widgets/diaco-about-us.php:66
+#: elementor-addons/includes/widgets/diaco-accordion.php:43
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:59
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:37
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:105
+#: elementor-addons/includes/widgets/diaco-price-box.php:104
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:63
+#: elementor-addons/includes/widgets/diaco-project-slider.php:85
+#: elementor-addons/includes/widgets/diaco-service-grid.php:65
+#: elementor-addons/includes/widgets/diaco-service-grid.php:75
+#: elementor-addons/includes/widgets/diaco-service-slider.php:83
+#: elementor-addons/includes/widgets/diaco-service-slider.php:134
+#: elementor-addons/includes/widgets/diaco-service-slider.php:144
+#: elementor-addons/includes/widgets/diaco-team.php:50
+#: elementor-addons/includes/widgets/diaco-timeline.php:54
+#: elementor-addons/includes/widgets/diaco-work-block.php:43
+msgid "Type your description here"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaca-about-agent.php:51
+msgid "Agent Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaca-about-agent.php:62
+msgid "Agent Bio"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaca-about-agent.php:73
+#: elementor-addons/includes/widgets/diaco-blogs.php:150
+#: elementor-addons/includes/widgets/diaco-counter.php:82
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:68
+#: elementor-addons/includes/widgets/diaco-team.php:68
+msgid "Extra Class"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-about-us.php:11
+msgid "Our Store"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-about-us.php:33
+#: elementor-addons/includes/widgets/diaco-accordion.php:33
+#: elementor-addons/includes/widgets/diaco-blogs.php:127
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:55
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:33
+#: elementor-addons/includes/widgets/diaco-prallax-video.php:59
+#: elementor-addons/includes/widgets/diaco-price-box.php:34
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:52
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:34
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:82
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:36
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:53
+#: elementor-addons/includes/widgets/diaco-project-slider.php:71
+#: elementor-addons/includes/widgets/diaco-project-slider.php:106
+#: elementor-addons/includes/widgets/diaco-project-slider.php:198
+#: elementor-addons/includes/widgets/diaco-service-icon.php:34
+#: elementor-addons/includes/widgets/diaco-service-icon.php:41
+#: elementor-addons/includes/widgets/diaco-service-slider.php:73
+#: elementor-addons/includes/widgets/diaco-team.php:33
+#: elementor-addons/includes/widgets/diaco-testimonial.php:34
+#: elementor-addons/includes/widgets/diaco-timeline.php:33
+#: elementor-addons/includes/widgets/diaco-work-block.php:33
+msgid "Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-about-us.php:40
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:44
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:44
+#: elementor-addons/includes/widgets/diaco-prallax-video.php:48
+#: elementor-addons/includes/widgets/diaco-team.php:40
+#: elementor-addons/includes/widgets/diaco-testimonial.php:41
+msgid "Sub Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-about-us.php:51
+msgid "Count Text"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-about-us.php:63
+msgid "Story Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-about-us.php:73
+msgid "Button Text "
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-about-us.php:75
+msgid "Discover more about our story"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-about-us.php:81
+msgid "Button Url"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-about-us.php:83
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:98
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:65
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:126
+#: elementor-addons/includes/widgets/diaco-price-box.php:113
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:100
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:133
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:85
+#: elementor-addons/includes/widgets/diaco-project-slider.php:149
+#: elementor-addons/includes/widgets/diaco-project-slider.php:210
+#: elementor-addons/includes/widgets/diaco-service-grid.php:84
+#: elementor-addons/includes/widgets/diaco-service-grid.php:136
+#: elementor-addons/includes/widgets/diaco-service-icon.php:60
+#: elementor-addons/includes/widgets/diaco-service-slider.php:153
+#: elementor-addons/includes/widgets/diaco-service-slider.php:205
+#: elementor-addons/includes/widgets/diaco-team.php:104
+#: elementor-addons/includes/widgets/diaco-work-block.php:54
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-about-us.php:96
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:112
+msgid "Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-accordion.php:11
+msgid "Diaco Accordion"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-accordion.php:27
+msgid "Accordion"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-accordion.php:40
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:60
+#: elementor-addons/includes/widgets/diaco-project-slider.php:82
+#: elementor-addons/includes/widgets/diaco-service-grid.php:72
+#: elementor-addons/includes/widgets/diaco-service-slider.php:80
+#: elementor-addons/includes/widgets/diaco-service-slider.php:141
+msgid "Description"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-accordion.php:50
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:111
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:139
+#: elementor-addons/includes/widgets/diaco-price-box.php:126
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:113
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:146
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:98
+#: elementor-addons/includes/widgets/diaco-project-slider.php:171
+#: elementor-addons/includes/widgets/diaco-service-grid.php:97
+#: elementor-addons/includes/widgets/diaco-service-slider.php:166
+#: elementor-addons/includes/widgets/diaco-team.php:125
+#: elementor-addons/includes/widgets/diaco-testimonial.php:95
+#: elementor-addons/includes/widgets/diaco-timeline.php:88
+#: elementor-addons/includes/widgets/diaco-work-block.php:67
+msgid "Repeater List"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-accordion.php:55
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:116
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:144
+#: elementor-addons/includes/widgets/diaco-price-box.php:131
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:118
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:151
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:103
+#: elementor-addons/includes/widgets/diaco-project-slider.php:176
+#: elementor-addons/includes/widgets/diaco-service-grid.php:102
+#: elementor-addons/includes/widgets/diaco-service-slider.php:171
+#: elementor-addons/includes/widgets/diaco-team.php:130
+#: elementor-addons/includes/widgets/diaco-testimonial.php:100
+#: elementor-addons/includes/widgets/diaco-timeline.php:93
+#: elementor-addons/includes/widgets/diaco-work-block.php:72
+msgid "Title #1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-accordion.php:56
+#: elementor-addons/includes/widgets/diaco-accordion.php:60
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:117
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:121
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:145
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:149
+#: elementor-addons/includes/widgets/diaco-price-box.php:132
+#: elementor-addons/includes/widgets/diaco-price-box.php:136
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:119
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:123
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:152
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:156
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:104
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:108
+#: elementor-addons/includes/widgets/diaco-project-slider.php:177
+#: elementor-addons/includes/widgets/diaco-project-slider.php:181
+#: elementor-addons/includes/widgets/diaco-service-grid.php:103
+#: elementor-addons/includes/widgets/diaco-service-grid.php:107
+#: elementor-addons/includes/widgets/diaco-service-slider.php:172
+#: elementor-addons/includes/widgets/diaco-service-slider.php:176
+#: elementor-addons/includes/widgets/diaco-team.php:131
+#: elementor-addons/includes/widgets/diaco-team.php:135
+#: elementor-addons/includes/widgets/diaco-testimonial.php:101
+#: elementor-addons/includes/widgets/diaco-testimonial.php:105
+#: elementor-addons/includes/widgets/diaco-timeline.php:94
+#: elementor-addons/includes/widgets/diaco-timeline.php:98
+#: elementor-addons/includes/widgets/diaco-work-block.php:73
+#: elementor-addons/includes/widgets/diaco-work-block.php:77
+msgid "Item content. Click the edit button to change this text."
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-accordion.php:59
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:120
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:148
+#: elementor-addons/includes/widgets/diaco-price-box.php:135
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:122
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:155
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:107
+#: elementor-addons/includes/widgets/diaco-project-slider.php:180
+#: elementor-addons/includes/widgets/diaco-service-grid.php:106
+#: elementor-addons/includes/widgets/diaco-service-slider.php:175
+#: elementor-addons/includes/widgets/diaco-team.php:134
+#: elementor-addons/includes/widgets/diaco-testimonial.php:104
+#: elementor-addons/includes/widgets/diaco-timeline.php:97
+#: elementor-addons/includes/widgets/diaco-work-block.php:76
+msgid "Title #2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:18
+msgid "Blog"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:58
+msgid "Blogs"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:64
+msgid "Title 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:72
+msgid "Title 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:81
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:80
+msgid "Category"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:90
+msgid "Delay Time"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:98
+#: elementor-addons/includes/widgets/diaco-project-slider.php:132
+msgid "Number of Column"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:102
+#: elementor-addons/includes/widgets/diaco-project-slider.php:136
+msgid "3"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:103
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:48
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:63
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:123
+msgid "2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:112
+msgid "Number of Post"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:120
+msgid "Order By"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:124
+#: elementor-addons/includes/widgets/diaco-timeline.php:61
+msgid "Date"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:125
+msgid "ID"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:126
+msgid "Author"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:128
+msgid "Modified"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:129
+msgid "Random"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:130
+msgid "Comment count"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:131
+msgid "Menu order"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:138
+msgid "Order"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:142
+msgid "DESC"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-blogs.php:143
+msgid "ASC"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-counter.php:22
+#: elementor-addons/includes/widgets/diaco-counter.php:37
+msgid "Counter"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-counter.php:47
+msgid "Counter 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-counter.php:48
+msgid "Counter 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-counter.php:49
+msgid "Counter 3"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-counter.php:54
+#: elementor-addons/includes/widgets/diaco-counter.php:56
+msgid "Tab Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-counter.php:60
+msgid "Counter Text"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-counter.php:66
+msgid "Unit Text"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-counter.php:71
+msgid "Counter Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:11
+msgid "Call To Action"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:23
+#: elementor-addons/includes/widgets/diaco-price-box.php:27
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:28
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:28
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:28
+#: elementor-addons/includes/widgets/diaco-project-slider.php:28
+#: elementor-addons/includes/widgets/diaco-service-icon.php:27
+#: elementor-addons/includes/widgets/diaco-service-slider.php:27
+#: elementor-addons/includes/widgets/diaco-team.php:27
+#: elementor-addons/includes/widgets/diaco-team.php:47
+#: elementor-addons/includes/widgets/diaco-testimonial.php:28
+#: elementor-addons/includes/widgets/diaco-work-block.php:27
+#: elementor-addons/includes/widgets/diaco-work-tab-slider.php:48
+msgid "Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:30
+msgid "Conent"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:37
+msgid "Form Shortcode"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:39
+msgid "Form Shortcode here"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:46
+#: elementor-addons/includes/widgets/diaco-price-box.php:53
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:36
+#: elementor-addons/includes/widgets/diaco-project-slider.php:95
+#: elementor-addons/includes/widgets/diaco-testimonial.php:49
+msgid "Add Class"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:55
+#: elementor-addons/includes/widgets/diaco-map.php:23
+msgid "Map canvace info"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:61
+#: elementor-addons/includes/widgets/diaco-map.php:29
+msgid "data-zoom"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:63
+#: elementor-addons/includes/widgets/diaco-map.php:31
+#: elementor-addons/includes/widgets/diaco-project-slider.php:140
+msgid "12"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:64
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:72
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:80
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:88
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:96
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:103
+#: elementor-addons/includes/widgets/diaco-map.php:32
+#: elementor-addons/includes/widgets/diaco-map.php:40
+#: elementor-addons/includes/widgets/diaco-map.php:48
+#: elementor-addons/includes/widgets/diaco-map.php:56
+#: elementor-addons/includes/widgets/diaco-map.php:64
+#: elementor-addons/includes/widgets/diaco-map.php:71
+msgid "conten here"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:69
+#: elementor-addons/includes/widgets/diaco-map.php:37
+msgid "data-lat"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:71
+#: elementor-addons/includes/widgets/diaco-map.php:39
+msgid "-37.817085"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:77
+#: elementor-addons/includes/widgets/diaco-map.php:45
+msgid "data-lng"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:79
+#: elementor-addons/includes/widgets/diaco-map.php:47
+msgid "144.955631"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:85
+#: elementor-addons/includes/widgets/diaco-map.php:53
+msgid "data-type"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:87
+#: elementor-addons/includes/widgets/diaco-map.php:55
+msgid "roadmap"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:93
+#: elementor-addons/includes/widgets/diaco-map.php:61
+msgid "data-hue"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:95
+#: elementor-addons/includes/widgets/diaco-map.php:63
+msgid "#ffc400"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:101
+#: elementor-addons/includes/widgets/diaco-map.php:69
+msgid "data-title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-form-on-map.php:108
+#: elementor-addons/includes/widgets/diaco-map.php:76
+msgid "data-icon-path"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-heading.php:11
+msgid "Diaco Heading"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-heading.php:40
+#: elementor-addons/includes/widgets/diaco-work-tab-slider.php:41
+msgid "Sub Heading"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-image-box.php:11
+msgid "Diaco Image Box"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-image-box.php:33
+msgid "Image Url"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-map.php:11
+msgid "Map"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:11
+msgid "Diaco Partners Logo"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:33
+#: elementor-addons/includes/widgets/diaco-service-slider.php:61
+#: elementor-addons/includes/widgets/diaco-team.php:57
+msgid "Show Slider"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:35
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:54
+#: elementor-addons/includes/widgets/diaco-project-slider.php:58
+#: elementor-addons/includes/widgets/diaco-service-slider.php:49
+#: elementor-addons/includes/widgets/diaco-service-slider.php:63
+#: elementor-addons/includes/widgets/diaco-team.php:59
+msgid "Show"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:36
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:55
+#: elementor-addons/includes/widgets/diaco-project-slider.php:59
+#: elementor-addons/includes/widgets/diaco-service-slider.php:50
+#: elementor-addons/includes/widgets/diaco-service-slider.php:64
+#: elementor-addons/includes/widgets/diaco-team.php:60
+msgid "Hide"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:78
+msgid "Logo List"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:85
+msgid "Logo"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-partners-logo.php:96
+msgid "Logo Url"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:11
+msgid "Diaco Portfolio Project"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:52
+msgid "Back Backgroud"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:63
+msgid "More Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:80
+msgid "Portfolios"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:86
+#: elementor-addons/includes/widgets/diaco-service-icon.php:50
+msgid "Icon"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:94
+msgid "Project Name"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:102
+msgid "Project Details"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:124
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:98
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:131
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:83
+#: elementor-addons/includes/widgets/diaco-project-slider.php:147
+#: elementor-addons/includes/widgets/diaco-team.php:102
+#: elementor-addons/includes/widgets/diaco-work-block.php:52
+msgid "Url"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:205
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:231
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:203
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:239
+msgid "View Project"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-portfolio-project.php:241
+msgid "View All Projects"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-prallax-video.php:11
+msgid "Diaco Video"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-prallax-video.php:34
+msgid "Video Style"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-prallax-video.php:38
+#: elementor-addons/includes/widgets/diaco-project-slider.php:38
+#: elementor-addons/includes/widgets/diaco-service-slider.php:37
+msgid "Style One"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-prallax-video.php:39
+#: elementor-addons/includes/widgets/diaco-project-slider.php:39
+#: elementor-addons/includes/widgets/diaco-service-slider.php:38
+msgid "Style Two"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-prallax-video.php:67
+msgid "Video Url"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-prallax-video.php:75
+msgid "Back Ground Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:11
+msgid "Diaco Price Box"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:36
+msgid "<h1>servicing<br><span>Cost</span></h1>"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:42
+msgid "Title Background"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:55
+msgid "alternate-2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:65
+msgid "Price Box"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:72
+msgid "Price Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:74
+msgid "Starter"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:81
+msgid "Price"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:84
+msgid "$35.99"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:91
+msgid "Duration"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:94
+msgid "Monthly"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:101
+msgid "Price List"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:111
+msgid "Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-price-box.php:194
+msgid "Learn More"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:11
+msgid "Diaco Project Isotop Two"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:45
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:75
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:181
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:46
+#: elementor-addons/includes/widgets/diaco-project-slider.php:50
+msgid "Project"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:59
+#: elementor-addons/includes/widgets/diaco-timeline.php:51
+msgid "Desc"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:66
+msgid "Project Number"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:73
+msgid "Project Icon"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:87
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:105
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:70
+#: elementor-addons/includes/widgets/diaco-project-slider.php:121
+msgid "Project Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop-two.php:164
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:215
+msgid "All"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:11
+msgid "Diaco Project Isotop"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:41
+msgid "Select Style"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:44
+msgid "Grid"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:45
+msgid "Masonry"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:55
+msgid "Column Select"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:58
+msgid "Two"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:59
+msgid "Three"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:60
+msgid "Four"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:89
+msgid "Project Category"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:91
+msgid "Architecture"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:98
+msgid "Category Isotop"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:116
+msgid "Masonry Column Select"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:119
+msgid "Big Column"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-isotop.php:120
+msgid "Small Column"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-masonary.php:11
+msgid "Diaco Project Masonary"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:11
+msgid "Diaco Project Slider"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:34
+msgid "Project Style"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:48
+msgid "Animate Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:56
+#: elementor-addons/includes/widgets/diaco-service-slider.php:47
+msgid "Show Description"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:113
+msgid "Project Type"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:137
+msgid "4"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:138
+msgid "5"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:139
+msgid "6"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:164
+msgid "Project List"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:192
+msgid "button"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:200
+msgid "Load More"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-project-slider.php:208
+msgid "More Button"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:11
+msgid "Diaco Service Grid"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:27
+#: elementor-addons/includes/widgets/diaco-service-slider.php:96
+msgid "Service"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:34
+#: elementor-addons/includes/widgets/diaco-service-slider.php:103
+msgid "Service Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:42
+#: elementor-addons/includes/widgets/diaco-service-icon.php:11
+#: elementor-addons/includes/widgets/diaco-service-slider.php:110
+msgid "Service Icon"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:50
+#: elementor-addons/includes/widgets/diaco-service-slider.php:119
+msgid "Service Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:61
+#: elementor-addons/includes/widgets/diaco-service-slider.php:130
+msgid "Button Name"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:82
+#: elementor-addons/includes/widgets/diaco-service-icon.php:58
+#: elementor-addons/includes/widgets/diaco-service-slider.php:151
+msgid "Service Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:117
+#: elementor-addons/includes/widgets/diaco-service-slider.php:186
+msgid "Button"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:127
+#: elementor-addons/includes/widgets/diaco-service-slider.php:196
+msgid "All Services"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:134
+#: elementor-addons/includes/widgets/diaco-service-slider.php:203
+msgid "All Service Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-grid.php:184
+#: elementor-addons/includes/widgets/diaco-service-slider.php:274
+#: elementor-addons/includes/widgets/diaco-work-block.php:110
+msgid "Read More"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-slider.php:11
+msgid "Diaco Service Slider"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-slider.php:33
+msgid "Slider Style"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-slider.php:112
+msgid "flaticon-interior"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-service-slider.php:345
+msgid "REad More"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-team.php:11
+msgid "Team"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-team.php:70
+#: elementor-addons/includes/widgets/diaco-testimonial.php:51
+msgid "about-page-1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-team.php:77
+msgid "Name"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-team.php:84
+#: elementor-addons/includes/widgets/diaco-testimonial.php:68
+#: elementor-addons/includes/widgets/diaco-timeline.php:79
+msgid "Designation"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-team.php:91
+#: elementor-addons/includes/widgets/diaco-testimonial.php:84
+msgid "Author Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-team.php:119
+msgid "Team List"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-testimonial.php:12
+msgid "Testimonial"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-testimonial.php:60
+msgid "Testimonial Author"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-testimonial.php:76
+msgid "Testimonial Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-timeline.php:11
+msgid "Diaco Timeline"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-timeline.php:27
+msgid "Genaral"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-timeline.php:35
+msgid "Educa<span>tion.</span>"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-timeline.php:42
+msgid "Subtitle"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-timeline.php:44
+msgid "experience"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-timeline.php:63
+msgid "2014-2016"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-timeline.php:70
+msgid "University name"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-timeline.php:72
+msgid "BSS University, USA"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-timeline.php:81
+msgid "Interior Designer"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-work-block.php:11
+msgid "Work Block"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-work-block.php:40
+msgid "Work Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/diaco-work-tab-slider.php:12
+#: elementor-addons/includes/widgets/diaco-work-tab-slider.php:27
+msgid "Work Tab Slider"
+msgstr ""
+
+#: meta-box/page-meta.php:18
+msgid "Default widget"
+msgstr ""
+
+#: meta-box/page-meta.php:37
+msgid "Design Settings"
+msgstr ""
+
+#: meta-box/page-meta.php:46
+msgid "Post Meta Image"
+msgstr ""
+
+#: meta-box/page-meta.php:59
+msgid "Page Design Settings"
+msgstr ""
+
+#: meta-box/page-meta.php:67
+msgid "Header Slider Shortcode"
+msgstr ""
+
+#: meta-box/page-meta.php:74
+msgid "Show Page Titlebar"
+msgstr ""
+
+#: meta-box/page-meta.php:82
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: meta-box/page-meta.php:89
+msgid "Left Side Rotate Text"
+msgstr ""
+
+#: meta-box/page-meta.php:96
+msgid "Page Style"
+msgstr ""
+
+#: meta-box/page-meta.php:106 meta-box/page-meta.php:116
+msgid "Select"
+msgstr ""
+
+#: meta-box/page-meta.php:110
+msgid "Page Sidebar"
+msgstr ""
+
+#: meta-box/page-meta.php:125
+msgid "Work Meta Fields"
+msgstr ""
+
+#: meta-box/page-meta.php:134 meta-box/page-meta.php:135
+msgid "Work No"
+msgstr ""
+
+#: meta-box/page-meta.php:141 meta-box/page-meta.php:142
+msgid "Work Icon"
+msgstr ""
+
+#: meta-box/page-meta.php:148 meta-box/page-meta.php:149
+msgid "Work Link"
+msgstr ""
+
+#: post-type/custom-post-work.php:6
+msgctxt "Post Type General Name"
+msgid "Work"
+msgstr ""
+
+#: post-type/custom-post-work.php:7
+msgctxt "Post Type Singular Name"
+msgid "Work"
+msgstr ""
+
+#: post-type/custom-post-work.php:8 post-type/custom-post-work.php:9
+msgid "Work"
+msgstr ""
+
+#: post-type/custom-post-work.php:10
+msgid "Item Work"
+msgstr ""
+
+#: post-type/custom-post-work.php:11
+msgid "Parent Item:"
+msgstr ""
+
+#: post-type/custom-post-work.php:12
+msgid "All Work"
+msgstr ""
+
+#: post-type/custom-post-work.php:13 post-type/custom-post-work.php:14
+msgid "Add New Work"
+msgstr ""
+
+#: post-type/custom-post-work.php:15
+msgid "New Work Item"
+msgstr ""
+
+#: post-type/custom-post-work.php:16
+msgid "Edit Work Item"
+msgstr ""
+
+#: post-type/custom-post-work.php:17
+msgid "Update Work Item"
+msgstr ""
+
+#: post-type/custom-post-work.php:18
+msgid "View Work Item"
+msgstr ""
+
+#: post-type/custom-post-work.php:19
+msgid "Search Item"
+msgstr ""
+
+#: post-type/custom-post-work.php:20
+msgid "Not found"
+msgstr ""
+
+#: post-type/custom-post-work.php:21
+msgid "Not found in Trash"
+msgstr ""
+
+#: post-type/custom-post-work.php:22
+msgid "Featured Image"
+msgstr ""
+
+#: post-type/custom-post-work.php:23
+msgid "Set featured image"
+msgstr ""
+
+#: post-type/custom-post-work.php:24
+msgid "Remove featured image"
+msgstr ""
+
+#: post-type/custom-post-work.php:25
+msgid "Use as featured image"
+msgstr ""
+
+#: post-type/custom-post-work.php:26
+msgid "Insert into item"
+msgstr ""
+
+#: post-type/custom-post-work.php:27
+msgid "Uploaded to this item"
+msgstr ""
+
+#: post-type/custom-post-work.php:28
+msgid "Items list"
+msgstr ""
+
+#: post-type/custom-post-work.php:29
+msgid "Items list navigation"
+msgstr ""
+
+#: post-type/custom-post-work.php:30
+msgid "Filter items list"
+msgstr ""
+
+#: post-type/custom-post-work.php:37
+msgid "Description."
+msgstr ""
+
+#: post-type/custom-post-work.php:62 post-type/custom-post-work.php:63
+msgctxt "diaco-core"
+msgid "Work Category"
+msgstr ""
+
+#: post-type/custom-post-work.php:64
+msgid "Search Work Category"
+msgstr ""
+
+#: post-type/custom-post-work.php:65
+msgid "All Work Category"
+msgstr ""
+
+#: post-type/custom-post-work.php:66
+msgid "Parent Category"
+msgstr ""
+
+#: post-type/custom-post-work.php:67
+msgid "Parent Work Category:"
+msgstr ""
+
+#: post-type/custom-post-work.php:68
+msgid "Edit Work Category"
+msgstr ""
+
+#: post-type/custom-post-work.php:69
+msgid "Update Work Category"
+msgstr ""
+
+#: post-type/custom-post-work.php:70
+msgid "Add New Work Category"
+msgstr ""
+
+#: post-type/custom-post-work.php:71
+msgid "New Work Category Name"
+msgstr ""
+
+#: post-type/custom-post-work.php:72
+msgid "Work Category"
+msgstr ""
+
+#: widgets/diaco-latest-post-widget.php:16
+msgid "Diaco Latest Post"
+msgstr ""
+
+#: widgets/diaco-latest-post-widget.php:19
+msgid "Diaco Latest Posts"
+msgstr ""
+
+#: widgets/diaco-latest-post-widget.php:21
+msgid "Widget for Latest Post"
+msgstr ""
+
+#: widgets/diaco-latest-post-widget.php:70
+#: widgets/diaco-sidebar-recent-post-widget.php:39
+msgid "Title:"
+msgstr ""
+
+#: widgets/diaco-latest-post-widget.php:74
+#: widgets/diaco-sidebar-recent-post-widget.php:43
+msgid "Number of posts:"
+msgstr ""
+
+#: widgets/diaco-sidebar-recent-post-widget.php:14
+msgid "Recent Post"
+msgstr ""
+
+#: widgets/diaco-sidebar-recent-post-widget.php:18
+msgid "Diaco Recent Posts"
+msgstr ""
+
+#: widgets/diaco-sidebar-recent-post-widget.php:20
+msgid "Widget for displaying Post"
+msgstr ""

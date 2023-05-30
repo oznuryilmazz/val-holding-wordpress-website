@@ -1,0 +1,34 @@
+.select2-container {
+    max-width: 500px;
+    display: block;
+    margin: 1px;
+    margin-top: 5px;
+}
+
+.tnp-emails-header {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+    vertical-align: top;
+}
+
+.tnp-emails-subject {
+    flex-grow: 3;
+}
+
+.tnp-emails-subject #options-subject {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 10px;
+    width: 90%;
+    border: var(--tnp-input-border);
+}
+
+.tnp-emails-status {
+    flex-grow: 1; 
+    background: #fffafa;
+    padding: 10px 1rem;
+    border-radius: 5px;
+} 

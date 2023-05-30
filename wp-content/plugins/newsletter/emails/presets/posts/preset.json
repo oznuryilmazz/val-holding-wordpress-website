@@ -1,0 +1,32 @@
+{
+  "name": "Last news from your blog",
+  "blocks": [
+    {
+      "block": "header",
+      "options": {
+      }
+    },
+    {
+      "block": "heading",
+      "options": {
+        "text": "Latest post from {blog_title}",
+        "font_weight": "bold"
+      }
+    },
+    {
+      "block": "posts",
+      "options": {
+        "show_image": 1,
+        "show_date": 2,
+        "button_background": "#62A2C9",
+        "block_padding_right": 30,
+        "block_padding_bottom": 30
+      }
+    },
+    {
+      "block": "footer",
+      "options": {
+      }
+    }
+  ]
+}

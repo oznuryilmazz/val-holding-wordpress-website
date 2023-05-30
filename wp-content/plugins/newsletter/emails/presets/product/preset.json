@@ -1,0 +1,117 @@
+{
+  "name": "Product",
+  "blocks": [
+    {
+      "block": "header",
+      "options": {
+      }
+    },
+    {
+      "block": "heading",
+      "options": {
+        "text": "Drink healthy!",
+        "font_size": 40,
+        "font_weight": "bold",
+        "font_family": "Tahoma, Geneva, sans-serif"
+      }
+    },
+    {
+      "block": "image",
+      "options": {
+        "placeholder": "{placeholder_base_url}/product/images/product.jpg"
+      }
+    },
+    {
+      "block": "text",
+      "options": {
+        "html": "<p style=\"text-align: center;\"><span style=\"font-size: 24px; font-family: arial,helvetica,sans-serif;\">A juice like you've never seen before!</span></p>",
+        "block_padding_left": 30,
+        "block_padding_right": 30
+      }
+    },
+    {
+      "block": "cta",
+      "options": {
+        "background": "#CD4E74",
+        "text": "Discover the taste",
+        "font_size": 24,
+        "width": "300px"
+      }
+    },
+    {
+      "block": "heading",
+      "options": {
+        "text": "Highlands freshness",
+        "font_size": 30,
+        "font_family": "Tahoma, Geneva, sans-serif"
+      }
+    },
+    {
+      "block": "text",
+      "options": {
+        "html": "<p style=\"text-align: center;\"><span style=\"font-size: 19px; font-family: arial,helvetica,sans-serif;\">Chill out with this herbs flavoured juice with a lime twist.</span></p>",
+        "block_padding_left": 30,
+        "block_padding_right": 30
+      }
+    },
+    {
+      "block": "image",
+      "options": {
+        "placeholder": "{placeholder_base_url}/product/images/product-2.jpg"
+      }
+    },
+    {
+      "block": "heading",
+      "options": {
+        "text": "Deep forest experience",
+        "font_size": 30,
+        "font_family": "Tahoma, Geneva, sans-serif"
+      }
+    },
+    {
+      "block": "text",
+      "options": {
+        "html": "<p style=\"text-align: center;\"><span style=\"font-size: 19px; font-family: arial,helvetica,sans-serif;\">Feel the wild forest perfumes in your mouth.</span></p>",
+        "block_padding_left": 30,
+        "block_padding_right": 30
+      }
+    },
+    {
+      "block": "image",
+      "options": {
+        "placeholder": "{placeholder_base_url}/product/images/product-3.jpg"
+      }
+    },
+    {
+      "block": "text",
+      "options": {
+        "html": "<p style=\"text-align: center;\"><span style=\"font-size: 19px; font-family: arial,helvetica,sans-serif;\">Our juices qualities</span></p>",
+        "block_padding_left": 30,
+        "block_padding_right": 30
+      }
+    },
+    {
+      "block": "text",
+      "options":
+      {
+        "font_family":"Helvetica, Arial, sans-serif",
+        "block_padding_top":"10",
+        "block_padding_bottom":"20",
+        "block_padding_left":"60",
+        "block_padding_right":"60",
+        "html": "<ul style=\"list-style: disc;\">\n<li>100% <strong>organic</strong></li>\n<li>100% <strong>recyclable</strong> bottle</li>\n<li>no <strong>preservatives</strong> and <strong>additives</strong></li>\n<li>crafted with <strong>sustainable</strong> philosophy</li>\n</ul>"
+      }
+    },
+    {
+      "block": "footer",
+      "options": {
+      }
+    },
+    {
+      "block": "canspam",
+      "options": {
+        "block_background": "#ececec"
+      }
+    }
+  ]
+}

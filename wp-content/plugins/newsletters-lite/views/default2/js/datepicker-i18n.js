@@ -1,0 +1,1 @@
+jQuery.fn.datepicker.dates['en'] = bootstrap_datepicker_dates;

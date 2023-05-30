@@ -1,0 +1,38 @@
+
+---Downloaded files---
+The import files for: Diaco were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://oznuryilmaz.com/val-holding
+Data file = /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-demo-installer/demo-data/demo1/content.xml
+Widget file = /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-demo-installer/demo-data/demo1/widgets.wie
+Customizer file = /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-demo-installer/demo-data/demo1/customize.dat
+Redux files:
+diaco_options -> /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-demo-installer/demo-data/demo1/settings.json 
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Diaco Recent Posts - Popular Post - Widget already exists
+Custom HTML - Follow us - Widget already exists
+
+Footer Sidebar : 
+
+Custom HTML - No Title - Imported
+Diaco Latest Posts - LATEST NEWS - Imported
+Gallery - Gallery - Imported
+Custom HTML - Contact us - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: diaco_options finished successfully!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

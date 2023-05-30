@@ -1,0 +1,167 @@
+[13-Mar-2023 15:20:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-service-slider.php on line 324
+[13-Mar-2023 17:09:02 UTC] PHP Warning:  Undefined variable $class_ in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-project-isotop.php on line 210
+[13-Mar-2023 17:09:08 UTC] PHP Warning:  Undefined variable $class_ in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-project-isotop.php on line 210
+[13-Mar-2023 18:01:45 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[13-Mar-2023 18:26:43 UTC] PHP Warning:  Undefined variable $class_ in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-project-isotop.php on line 210
+[13-Mar-2023 18:26:44 UTC] PHP Warning:  Undefined variable $class_ in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-project-isotop.php on line 210
+[13-Mar-2023 18:26:45 UTC] PHP Warning:  Undefined variable $class_ in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-project-isotop.php on line 210
+[14-Mar-2023 08:29:37 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[14-Mar-2023 18:32:57 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[15-Mar-2023 18:20:37 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[16-Mar-2023 08:53:17 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[18-Mar-2023 08:54:41 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[18-Mar-2023 21:55:40 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[19-Mar-2023 08:27:48 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[19-Mar-2023 18:50:09 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[20-Mar-2023 17:10:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "lists" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 260
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "title" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 20
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "subtitle" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 22
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined variable $widget_id in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 29
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "type" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 31
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined variable $widget_id in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 35
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined variable $widget_id in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 36
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "list" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 31
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined variable $listidquery in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/models/fields_list.php on line 226
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "captcha" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 46
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "button" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 102
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "ajax" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 124
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "scroll" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 125
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "captcha" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 271
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined variable $widget_id in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 29
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined variable $widget_id in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 35
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined variable $widget_id in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 36
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined variable $listidquery in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/models/fields_list.php on line 226
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-plugin.php on line 8077
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "captcha" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 46
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "title" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 20
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "subtitle" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 22
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "type" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-widget.php on line 31
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "list" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 31
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined variable $listidquery in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/models/fields_list.php on line 226
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "captcha" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 46
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "button" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 102
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "ajax" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 124
+[20-Mar-2023 18:01:37 UTC] PHP Warning:  Undefined array key "scroll" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 125
+[20-Mar-2023 18:01:38 UTC] PHP Warning:  Undefined variable $listidquery in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/models/fields_list.php on line 226
+[20-Mar-2023 18:01:38 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-plugin.php on line 8077
+[20-Mar-2023 18:01:38 UTC] PHP Warning:  Undefined array key "captcha" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 46
+[20-Mar-2023 18:01:38 UTC] PHP Warning:  Undefined variable $listidquery in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/models/fields_list.php on line 226
+[20-Mar-2023 18:01:38 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist-plugin.php on line 8077
+[20-Mar-2023 18:01:38 UTC] PHP Warning:  Undefined array key "captcha" in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/views/default2/widget.php on line 46
+[20-Mar-2023 18:01:43 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[21-Mar-2023 14:20:00 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[21-Mar-2023 18:20:22 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[22-Mar-2023 06:21:34 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[22-Mar-2023 18:06:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[23-Mar-2023 06:45:46 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[23-Mar-2023 18:04:35 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[24-Mar-2023 14:41:34 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[24-Mar-2023 18:37:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[25-Mar-2023 08:27:16 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[25-Mar-2023 18:51:28 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[26-Mar-2023 13:39:45 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[26-Mar-2023 20:35:33 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[27-Mar-2023 07:34:53 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[27-Mar-2023 18:04:48 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[28-Mar-2023 06:02:17 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[28-Mar-2023 12:20:59 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php on line 742
+[28-Mar-2023 12:21:16 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php on line 742
+[28-Mar-2023 12:21:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php:742) in /home/oznuryilmaz/public_html/val-holding/wp-includes/pluggable.php on line 1416
+[28-Mar-2023 12:21:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php:742) in /home/oznuryilmaz/public_html/val-holding/wp-includes/pluggable.php on line 1419
+[28-Mar-2023 12:21:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php on line 742
+[28-Mar-2023 12:21:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php:742) in /home/oznuryilmaz/public_html/val-holding/wp-includes/pluggable.php on line 1416
+[28-Mar-2023 12:21:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php:742) in /home/oznuryilmaz/public_html/val-holding/wp-includes/pluggable.php on line 1419
+[28-Mar-2023 18:29:26 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[29-Mar-2023 06:30:46 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[29-Mar-2023 06:32:25 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php on line 742
+[29-Mar-2023 06:32:31 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php on line 742
+[29-Mar-2023 06:32:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php:742) in /home/oznuryilmaz/public_html/val-holding/wp-includes/pluggable.php on line 1416
+[29-Mar-2023 06:32:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/newsletters-lite/wp-mailinglist.php:742) in /home/oznuryilmaz/public_html/val-holding/wp-includes/pluggable.php on line 1419
+[29-Mar-2023 09:54:31 UTC] Cron reschedule event error for hook: wpml_cronhook, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"5minutes","args":[],"interval":300}
+[29-Mar-2023 18:34:26 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[29-Mar-2023 18:42:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-service-slider.php on line 324
+[29-Mar-2023 18:45:08 UTC] PHP Warning:  Undefined variable $class_ in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-project-isotop.php on line 210
+[29-Mar-2023 18:45:24 UTC] PHP Warning:  Undefined variable $class_ in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-project-isotop.php on line 210
+[29-Mar-2023 18:45:24 UTC] PHP Warning:  Undefined variable $class_ in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-project-isotop.php on line 210
+[29-Mar-2023 18:45:42 UTC] PHP Warning:  Undefined variable $class_ in /home/oznuryilmaz/public_html/val-holding/wp-content/plugins/diaco-core/elementor-addons/includes/widgets/diaco-project-isotop.php on line 210
+[30-Mar-2023 06:39:30 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 173
+[30-Mar-2023 19:16:39 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[31-Mar-2023 06:09:57 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[31-Mar-2023 23:06:29 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[01-Apr-2023 10:57:31 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[01-Apr-2023 21:47:05 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[02-Apr-2023 10:43:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[03-Apr-2023 00:08:13 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[03-Apr-2023 09:10:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[03-Apr-2023 18:13:27 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[04-Apr-2023 23:01:14 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[06-Apr-2023 11:29:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[08-Apr-2023 17:55:20 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[08-Apr-2023 20:24:27 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[10-Apr-2023 19:21:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[13-Apr-2023 08:09:31 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[14-Apr-2023 14:11:02 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[17-Apr-2023 12:09:39 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[21-Apr-2023 08:09:24 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[03-May-2023 12:16:00 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[05-May-2023 19:06:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[07-May-2023 00:55:24 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[07-May-2023 18:06:18 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[08-May-2023 15:23:17 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[09-May-2023 09:12:26 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[09-May-2023 22:25:41 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[10-May-2023 07:19:56 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[10-May-2023 21:10:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[11-May-2023 10:15:37 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[12-May-2023 07:11:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[12-May-2023 20:56:30 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[13-May-2023 08:21:39 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[13-May-2023 23:06:03 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[14-May-2023 10:49:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[15-May-2023 08:18:54 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[16-May-2023 05:57:13 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[16-May-2023 23:09:38 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[16-May-2023 23:10:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/oznuryilmaz/public_html/val-holding/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/oznuryilmaz/public_html/val-holding/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru('yilmazoznur53@g...', '=?us-ascii?Q?[V...', 'Howdy! Your sit...', 'Date: Tue, 16 M...', NULL)
+#1 /home/oznuryilmaz/public_html/val-holding/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend('Date: Tue, 16 M...', 'Howdy! Your sit...')
+#2 /home/oznuryilmaz/public_html/val-holding/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/oznuryilmaz/public_html/val-holding/wp-includes/pluggable.php(544): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php(963): wp_mail(Array, '[Val Holding] Y...', 'Howdy! Your sit...', Array)
+#5 /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php(632): WP_Automatic_Updater->send_email('success', Object(stdClass))
+#6 /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php(599): WP_Automatic_Updater->after_core_update(Object(stdClass))
+#7 /home/oznuryilmaz/public_html/val-holding/wp-includes/update.php(850): WP_Automatic_Updater->run()
+#8 /home/oznuryilmaz/public_html/val-holding/wp-includes/class-wp-hook.php(308): wp_maybe_auto_update('')
+#9 /home/oznuryilmaz/public_html/val-holding/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 /home/oznuryilmaz/public_html/val-holding/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/oznuryilmaz/public_html/val-holding/wp-includes/update.php(290): do_action('wp_maybe_auto_u...')
+#12 /home/oznuryilmaz/public_html/val-holding/wp-includes/class-wp-hook.php(308): wp_version_check()
+#13 /home/oznuryilmaz/public_html/val-holding/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#14 /home/oznuryilmaz/public_html/val-holding/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /home/oznuryilmaz/public_html/val-holding/wp-cron.php(188): do_action_ref_array('wp_version_chec...', Array)
+#16 {main}
+  thrown in /home/oznuryilmaz/public_html/val-holding/wp-includes/PHPMailer/PHPMailer.php on line 874
+[18-May-2023 14:13:02 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[18-May-2023 20:46:46 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[20-May-2023 08:26:54 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php on line 225
+[20-May-2023 08:27:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/oznuryilmaz/public_html/val-holding/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/oznuryilmaz/public_html/val-holding/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru('yilmazoznur53@g...', '=?us-ascii?Q?[V...', 'Howdy! Your sit...', 'Date: Sat, 20 M...', NULL)
+#1 /home/oznuryilmaz/public_html/val-holding/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend('Date: Sat, 20 M...', 'Howdy! Your sit...')
+#2 /home/oznuryilmaz/public_html/val-holding/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/oznuryilmaz/public_html/val-holding/wp-includes/pluggable.php(544): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php(963): wp_mail(Array, '[Val Holding] Y...', 'Howdy! Your sit...', Array)
+#5 /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php(632): WP_Automatic_Updater->send_email('success', Object(stdClass))
+#6 /home/oznuryilmaz/public_html/val-holding/wp-admin/includes/class-wp-automatic-updater.php(599): WP_Automatic_Updater->after_core_update(Object(stdClass))
+#7 /home/oznuryilmaz/public_html/val-holding/wp-includes/update.php(850): WP_Automatic_Updater->run()
+#8 /home/oznuryilmaz/public_html/val-holding/wp-includes/class-wp-hook.php(308): wp_maybe_auto_update('')
+#9 /home/oznuryilmaz/public_html/val-holding/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 /home/oznuryilmaz/public_html/val-holding/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/oznuryilmaz/public_html/val-holding/wp-includes/update.php(290): do_action('wp_maybe_auto_u...')
+#12 /home/oznuryilmaz/public_html/val-holding/wp-includes/class-wp-hook.php(308): wp_version_check()
+#13 /home/oznuryilmaz/public_html/val-holding/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#14 /home/oznuryilmaz/public_html/val-holding/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /home/oznuryilmaz/public_html/val-holding/wp-cron.php(188): do_action_ref_array('wp_version_chec...', Array)
+#16 {main}
+  thrown in /home/oznuryilmaz/public_html/val-holding/wp-includes/PHPMailer/PHPMailer.php on line 874

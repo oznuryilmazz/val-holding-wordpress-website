@@ -1,0 +1,49 @@
+{
+  "name": "A big offer",
+  "blocks": [
+    {
+      "block": "heading",
+      "options": {
+        "text": "Only 3 days left!",
+        "font_size": 40,
+        "font_weight": "bold",
+        "block_padding_top": 40,
+        "block_padding_bottom": 30
+      }
+    },
+    {
+      "block": "text",
+      "options": {
+        "html": "<p style=\"text-align: center;\"><span style=\"font-size: 16px; font-family: arial,helvetica,sans-serif;\">Last chance to get it! Last call to get up to 50% off.</span></p>",
+        "block_padding_left": 30,
+        "block_padding_right": 30
+      }
+    },
+    {
+      "block": "cta",
+      "options": {
+        "background": "#F799A3",
+        "text": "Get it",
+        "font_size": 26,
+        "font_weight": "bold"
+      }
+    },
+    {
+      "block": "image",
+      "options": {
+        "placeholder": "{placeholder_base_url}/sales/images/sales.jpg"
+      }
+    },
+    {
+      "block": "footer",
+      "options": {
+      }
+    },
+    {
+      "block": "canspam",
+      "options": {
+        "block_background": "#ececec"
+      }
+    }
+  ]
+}

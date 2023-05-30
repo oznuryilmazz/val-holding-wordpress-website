@@ -1,0 +1,42 @@
+{
+  "name": "Simple Call To Action",
+  "blocks": [
+    {
+      "block": "header",
+      "options": {
+      }
+    },
+    {
+      "block": "image",
+      "options": {
+        "placeholder": "{placeholder_base_url}/cta/images/cta-image-1200x240.jpg"
+      }
+    },
+    {
+      "block": "cta",
+      "options": {
+        "text": "Follow us",
+        "background": "#9bc091"
+      }
+    },
+    {
+      "block": "text",
+      "options": {
+        "html": "<p style=\"text-align: center;\"><span style=\"font-size: 16px; font-family: arial,helvetica,sans-serif;\">Subscribe to our Instagram account to stay updated with our style tips and keep your outfit cool.</span></p>",
+        "block_padding_left": 30,
+        "block_padding_right": 30
+      }
+    },
+    {
+      "block": "footer",
+      "options": {
+      }
+    },
+    {
+      "block": "canspam",
+      "options": {
+        "block_background": "#ececec"
+      }
+    }
+  ]
+}

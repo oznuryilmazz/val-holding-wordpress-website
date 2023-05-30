@@ -1,0 +1,350 @@
+/* This is loaded inline in the welcome.php page */
+
+#tnp-welcome {
+    --tnp-welcome-color: #fff;
+}
+
+#tnp-welcome p,
+#tnp-welcome h2,
+#tnp-welcome input,
+#tnp-welcome select {
+    color: var(--tnp-welcome-color);
+}
+
+#tnp-welcome .cd-slider-wrapper {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    /* hide horizontal scrollbar on IE11 */
+    overflow: hidden;
+}
+#tnp-welcome .cd-slider-wrapper .cd-slider, 
+#tnp-welcome .cd-slider-wrapper .cd-slider > li {
+    height: 100%;
+    width: 100%;
+}
+
+#tnp-welcome .tnp-logo-big {
+    width: 300px;
+}
+
+#tnp-welcome .tnp-row {
+    display: table-row;
+}
+
+#tnp-welcome .tnp-third {
+    width: 33%;
+    float: left;
+}
+
+#tnp-welcome .tnp-welcome-confirm-button {
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #2ECC71;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto 0px;
+}
+
+#tnp-welcome .tnp-welcome-confirm-button:hover {
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.16);
+    color: #fff;
+}
+
+#tnp-welcome .tnp-welcome-confirm-button:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tnp-welcome .tnp-welcome-link-button {
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #3498DB;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16);
+    text-decoration: none;
+}
+
+#tnp-welcome .tnp-welcome-link-button:hover {
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.16);
+    color: #fff;
+}
+
+#tnp-welcome .tnp-welcome-link-button:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tnp-welcome input[type="text"], #tnp-welcome input[type="email"] {
+    max-width: 90%;
+    color: #fff;
+}
+
+#tnp-welcome a.tnp-welcome-next {
+    background-color: #2ECC71;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+#tnp-welcome .tnp-welcome-next:hover {
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.16);
+    color: #fff;
+}
+
+#tnp-welcome .tnp-welcome-next:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tnp-welcome a.tnp-welcome-prev {
+    background-color: #3498DB;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px 0px 0px 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+#tnp-welcome .tnp-welcome-prev:hover {
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.16);
+    color: #fff;
+}
+
+#tnp-welcome .tnp-welcome-prev:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tnp-welcome .tnp-welcome-next svg {
+    margin-left: 10px;
+}
+
+#tnp-welcome .tnp-welcome-prev svg {
+    margin-right: 10px;
+}
+
+#tnp-welcome .cd-slider input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #6c7280;
+    background: #454a56;
+    color: white;
+    padding: 0px 10px;
+}
+
+#tnp-welcome .cd-slider > li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    /* used to vertically center its content */
+    display: table;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2B313A;
+    background-size: cover;
+}
+
+#tnp-welcome .cd-slider > li.visible {
+    /* selected slide */
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+}
+
+#tnp-welcome .cd-slider > li > div {
+    /* vertically center the slider content */
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#tnp-welcome .cd-slider > li h2, .cd-slider > li p {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 320px;
+}
+
+#tnp-welcome .cd-slider > li h2 {
+    font-size: 40px;
+}
+.cd-slider > li p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    color: #B8C3C9;
+    margin: 40px auto;
+}
+
+#tnp-welcome .cd-slider > li .cd-btn {
+    display: inline-block;
+    padding: 1.2em 1.4em;
+    margin-top: .8em;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: .25em;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+.no-touch .cd-slider > li .cd-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+@media only screen and (min-width: 768px) {
+    .cd-slider > li h2, .cd-slider > li p {
+        max-width: 520px;
+    }
+    .cd-slider > li h2 {
+        font-size: 40px;
+    }
+    .cd-slider > li p {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: left;
+        color: #B8C3C9;
+        margin: 40px auto;
+
+    }
+}
+@media only screen and (min-width: 1170px) {
+    .cd-slider > li h2, .cd-slider > li p {
+        margin-bottom: 20px;
+    }
+    .cd-slider > li h2 {
+        font-size: 40px;
+    }
+    .cd-slider > li p {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #B8C3C9;
+        margin: 30px auto;
+    }
+}
+
+/* --------------------------------
+
+Tnp Welcome Slider Navigation
+
+-------------------------------- */
+.cd-slider-navigation {
+    position: relative;
+    bottom: 110px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+
+/* svg cover layer */
+
+.cd-svg-cover {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.cd-svg-cover path {
+    fill: #ED6A6A;
+}
+.cd-svg-cover.is-animating {
+    z-index: 4;
+    opacity: 1;
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+}
+
+/* Switch element style */
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

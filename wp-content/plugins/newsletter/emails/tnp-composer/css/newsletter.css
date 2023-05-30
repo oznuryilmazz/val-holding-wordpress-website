@@ -1,0 +1,38 @@
+#outlook a{padding:0;}
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+
+body { margin: 0; padding: 0; height: 100%!important; width: 100%!important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-line-height-rule: exactly;}
+table,td { border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%!important; -ms-interpolation-mode: bicubic;}
+img.aligncenter { display: block; margin: 0 auto;}
+@media screen and (max-width: 525px) {
+    .pt-1, .padding-top-15 { padding-top: 15px!important; }
+    .pb-1, .padding-bottom-15 { padding-bottom: 15px!important; }
+    .responsive { width:100%!important; }
+    table.responsive { width:100%!important; float: none; display: table; padding-left: 0; padding-right: 0; }
+    table[class="responsive"] { width:100%!important; float: none; display: table; padding-left: 0; padding-right: 0; }
+    img { max-width: 100%!important }
+    img[class="responsive"] { max-width: 100%!important; }
+    /* "width: auto" restores the natural dimensions forced with attributes for Outlook */
+    .fluid { max-width: 100%!important; width: auto; }
+    img[class="fluid"] { max-width: 100%!important; width: auto; }
+
+    .block { display: block; }
+
+    td[class="responsive"]{width:100%!important; max-width: 100%!important; display: block; padding-left: 0 !important; padding-right: 0!important; float: none; }
+    td.responsive { width:100%!important; max-width: 100%!important; display: block; padding-left: 0 !important; padding-right: 0!important; float: none; }
+
+    td[class="section-padding-bottom-image"]{
+        padding: 50px 15px 0 15px !important;
+    }
+    /* For grids */
+    .max-width-100 { max-width: 100%!important; }
+
+    /* Obsolete */
+    .tnp-grid-column {
+        max-width: 100%!important;
+    }
+
+}
+

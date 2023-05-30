@@ -1,0 +1,50 @@
+{
+  "name": "A big announcement",
+  "blocks": [
+    {
+      "block": "header",
+      "options": {
+      }
+    },
+    {
+      "block": "heading",
+      "options": {
+        "text": "The day has come!",
+        "font_size": 36,
+        "font_weight": "bold"
+      }
+    },
+    {
+      "block": "text",
+      "options": {
+        "html": "<p style=\"text-align: center;\"><span style=\"font-size: 16px; font-family: arial,helvetica,sans-serif;\">We are incredibly excited to share with you some big news: our [new service] is finally here for you!</span></p>",
+        "block_padding_left": 30,
+        "block_padding_right": 30
+      }
+    },
+    {
+      "block": "cta",
+      "options": {
+        "text": "Find out now!",
+        "background": "#589776"
+      }
+    },
+    {
+      "block": "image",
+      "options": {
+        "placeholder": "{placeholder_base_url}/announcement/images/announcement.jpg"
+      }
+    },
+    {
+      "block": "footer",
+      "options": {
+      }
+    },
+    {
+      "block": "canspam",
+      "options": {
+        "block_background": "#ececec"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+/* Contains some rules to simulate device layout on backend preview */
+
+#tnpb-content.tnp-view-mobile table[class="responsive"],
+#tnpb-content.tnp-view-mobile table.responsive
+{
+    width:100%!important;
+    float: none;
+    display: table;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#tnpb-content.tnp-view-mobile td[class="responsive"]{
+    width:100%!important;
+    max-width: 100%!important;
+    display: block;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    float: none;
+}
+
+#tnpb-content.tnp-view-mobile img[class="responsive"],
+#tnpb-content.tnp-view-mobile img.responsive
+{
+    max-width: 100%!important;
+}
+
+#tnpb-content.tnp-view-mobile img[class="fluid"]{
+    width: 100%;
+    max-width: 100%!important;
+}
+
+#tnpb-content.tnp-view-mobile .pt-1 {
+    padding-top: 15px!important;
+}
+
+#tnpb-content.tnp-view-mobile .pb-1 {
+    padding-bottom: 15px!important;
+}
+
+#tnpb-content.tnp-view-mobile .tnp-grid-column {
+    max-width: 100%!important;
+}
+
+#tnpb-content.tnp-view-mobile td[data-responsive-image="true"] {
+    height: auto !important;
+}
+
+/* Text block */
+#tnpb-content td .text a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+#tnpb-content td .text a:hover {
+    color: #0073aa;
+    text-decoration: none;
+}

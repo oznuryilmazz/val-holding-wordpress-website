@@ -1,0 +1,21 @@
+{
+    "require": {
+        "mailgun/mailgun-php": "3.x",
+        "pelago/emogrifier": "^2.1",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "php-imap/php-imap": "~2.0",
+        "scssphp/scssphp": "1.x",
+        "guzzlehttp/guzzle": "^6.3",
+        "php-http/guzzle6-adapter": "^1.1",
+        "sparkpost/sparkpost": "^2.1",
+        "daniel-zahariev/php-aws-ses": "^0.9.1",
+        "sendgrid/sendgrid": "^7.0",
+        "kriswallsmith/buzz": "^1.2",
+        "nyholm/psr7": "^1.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": false
+        }
+    }
+}

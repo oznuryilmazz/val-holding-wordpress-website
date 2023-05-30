@@ -1,0 +1,63 @@
+{
+  "name": "Invite to an event",
+  "blocks": [
+    {
+      "block": "header",
+      "options": {
+      }
+    },
+    {
+      "block": "text",
+      "options": {
+        "html": "<p style=\"text-align: center;\"><span style=\"font-size: 16px; font-family: arial,helvetica,sans-serif;\">My event brief description</span></p>",
+        "block_padding_left": 30,
+        "block_padding_right": 30
+      }
+    },
+    {
+      "block": "heading",
+      "options": {
+        "text": "You are invited to [my event]"
+      }
+    },
+    {
+      "block": "cta",
+      "options": {
+        "background": "#4dbcba",
+        "text": "RSVP"
+      }
+    },
+    {
+      "block": "image",
+      "options": {
+        "placeholder": "{placeholder_base_url}/invite/images/image.jpg"
+      }
+    },
+    {
+      "block": "text",
+      "options": {
+        "html": "<p style=\"text-align: center;\"><span style=\"font-size: 16px; font-family: arial,helvetica,sans-serif;\">We’re throwing a backyard BBQ and everyone is cooking up their best dish. Join us this Sunday for dinner as we grill, smoke and fry up traditional summer favorites with a playful twist…</span></p>",
+        "block_padding_left": 30,
+        "block_padding_right": 30
+      }
+    },
+    {
+      "block": "cta",
+      "options": {
+        "background": "#4dbcba",
+        "text": "RSVP"
+      }
+    },
+    {
+      "block": "footer",
+      "options": {
+      }
+    },
+    {
+      "block": "canspam",
+      "options": {
+        "block_background": "#ececec"
+      }
+    }
+  ]
+}

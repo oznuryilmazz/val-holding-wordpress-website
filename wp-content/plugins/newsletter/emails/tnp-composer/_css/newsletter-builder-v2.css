@@ -1,0 +1,985 @@
+
+.tnp-emails-composer {
+    margin: 15px 15px 0 0;
+}
+
+
+/* Contains the newsletter editing area and the tools */
+#tnp-builder {
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 1380px;
+    /*margin: 0 auto;*/
+    margin-top: 20px;
+}
+
+/* Contains the newsletter editing area */
+#tnp-builder #tnpb-main {
+    display: flex;
+    flex-flow: column;
+    flex-shrink: 0;
+    background-color: #fff;
+    width: 800px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    overflow: hidden;
+    float: left;
+
+    position: relative;
+}
+
+/* Contains the tools */
+#tnp-builder #tnpb-sidebar {
+    display: flex;
+    flex-flow: column;
+    /*    flex-grow: 1;*/
+    max-width: 535px;
+    min-width: 410px;
+    background-color: #ddd;
+    margin-left: 20px;
+    overflow-y: scroll;
+    /* Needed for block options form */
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+#tnpc-subject-wrap {
+    border-bottom: 5px solid #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position:relative;
+}
+
+#tnpc-subject-wrap th {
+    color: #999;
+    font-size: 14px;
+    font-weight: normal!important;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+#tnpc-subject-wrap td {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal!important;
+    text-align: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+#tnpc-subject-wrap th[dir=rtl] {
+    text-align: left;
+}
+#tnpc-subject-wrap td[dir=rtl] {
+    text-align: right;
+}
+#tnpc-subject-wrap td[dir=rtl] #options-title {
+    margin-right: 0;
+}
+
+#tnpc-subject-wrap .composer-actions {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#tnpc-subject-wrap .composer-view-mode {
+    display: flex;
+}
+
+#tnpc-subject-wrap .composer-view-mode .composer-view-mode__item {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: content-box;
+    text-align: center;
+    margin-left: 3px;
+    border-radius: 3px;
+    border: solid 1px #3c434a;
+    background-color: #FFF;
+    color: #3c434a;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#tnpc-subject-wrap .composer-view-mode .composer-view-mode__item--active {
+    background-color: #2b2f3a;
+    border-color: #2b2f3a;
+    color: #FFF;
+}
+
+#tnpc-subject-wrap .composer-view-mode .composer-view-mode__item:hover{
+    background-color: #3c434a;
+    border-color: #3c434a;
+    color: #FFF;
+}
+
+.composer-actions .button-primary {
+    background-color: #2b2f3a;
+}
+
+.composer-actions .button-primary:hover {
+    background-color: #3c434a;
+}
+
+#tnpc-subject #options-subject-subject,
+#options-preheader
+{
+    width: 600px;
+    margin-right: 15px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    font-family: monospace !important;
+}
+
+#options-preheader + .tnp-description
+{
+    margin-top: 0;
+}
+
+#tnpc-subject i {
+    font-size: 18px;
+}
+
+
+#tnpb-sidebar h4 {
+    /* margin: 5px; */
+    /* text-align: center; */
+    color: #868686;
+    /* margin-bottom: 20px; */
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+
+/* Block icons set (header, general, footer, ...) */
+#tnpb-sidebar .tnpb-block-icons {
+    padding: 5px;
+    margin: 5px;
+}
+
+#tnpb-sidebar .tnpb-block-icons img {
+    width: 150px;
+    height: auto;
+    display: block;
+}
+
+/* Single block icon */
+#tnpb-sidebar .tnpb-block-icon {
+    margin: 3px 1px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 0;
+}
+
+.tnpb-block-icon:hover {
+    cursor: move;
+}
+
+.tnpb-block-icon:hover img{
+    opacity: 0.8;
+}
+
+#tnpb-content {
+    /*float: left;*/
+    /*width: 730px;*/
+    /*background-color: rgba(153,153,153,1);*/
+    min-height: 300px!important;
+    padding-bottom: 75px;
+    /*background-color: #ECF0F1;*/
+    padding-top: 30px;
+    /*border: 1px dashed #eee;*/
+    overflow-y: auto;
+    /*max-height: 600px;*/
+}
+
+/* https://www.codegrepper.com/code-examples/css/how+ot+hide+scroll+bar+buy+allow+mouse+scrolling+css */
+#tnpb-content.tnp-view-mobile {
+    margin: 20px auto 0px auto;
+    width: 350px;
+    height: 500px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#tnpb-content.tnp-view-mobile::-webkit-scrollbar {
+    display: none;
+}
+
+#tnpb-content p {
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+
+.tnpc-row {
+    -webkit-transition: box-shadow 0.5s;
+    -moz-transition: box-shadow 0.5s;
+    -o-transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+    position: relative;
+}
+.tnpc-row:hover {
+    cursor: move;
+    /*border: 2px dashed #999;*/
+    -webkit-box-shadow:  0px 0px 20px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow:  0px 0px 20px 0px rgba(0,0,0,0.2);
+    box-shadow:  0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+.tnpc-row.ui-sortable-helper {
+    max-width: 700px!important;
+}
+.tnpc-row-delete, .tnpc-row-edit-block, .tnpc-row-clone {
+    height: 30px;
+    width: 30px;
+    top: 0px;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 5;
+    position: absolute;
+    color: rgba(102,102,102,1);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0;
+    text-align: center;
+    font-size: 18px;
+}
+.tnpc-row-delete i, .tnpc-row-edit-block i, .tnpc-row-clone i {
+    line-height: 30px;
+}
+.tnpc-row-delete:hover {
+    background-color: #E74C3C;
+    cursor: pointer;
+    color: rgba(255,255,255,1);
+}
+.tnpc-row:hover .tnpc-row-delete, .tnpc-row:hover .tnpc-row-edit-block, .tnpc-row:hover .tnpc-row-clone {
+    opacity: 1;
+}
+.tnpc-row-delete {
+    right: 0px;
+    z-index: 5;
+}
+.tnpc-row-edit-block {
+    right: 60px;
+}
+.tnpc-row-edit-block:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 1);
+}
+
+.tnpc-row-clone {
+    right: 30px;
+}
+.tnpc-row-clone:hover {
+    background-color: #e0e0e0;;
+    cursor: pointer;
+    color: rgba(0,0,0,1);
+}
+
+.tnpc-row-edit {
+    position: relative;
+}
+.tnpc-row-edit-hover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(63,141,191,0.8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: default;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.tnpc-row-edit-hover i {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: -15px;
+    color: rgba(255,255,255,1);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.tnpc-row-edit-hover i:hover {
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.tnpc-drop-here {
+    padding:10px;
+    text-align: center;
+}
+
+.tnpc-edit {
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.tnpc-edit-box-title {
+    /*float: left;*/
+    width: 100%;
+    font-size: 29px;
+    color: #666666;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.tnpc-edit-box-content {
+    /*float: left;*/
+    width: 100%;
+    margin-top: 10px;
+}
+.tnpc-edit-box-content-text {
+    /*float: left;*/
+    width: 100%;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 600;
+    margin: 15px 0px 10px;
+    text-transform: uppercase;
+}
+
+.tnpc-edit-box-content-text span {
+    font-size: 11px;
+    color: #95A5A6;
+    background-color: #D3EADC;
+    padding: 2px 5px;
+    text-transform: none;
+    border-radius: 5px;
+}
+
+.tnpc-edit-box-content-field {
+    /*float: left;*/
+    width: 100%;
+}
+
+.tnpc-edit-box-content-field-input {
+    height: 33px;
+    width: 380px;
+    border: none !important;
+    outline: none;
+    font-family: inherit;
+    padding-right: 10px;
+    font-size: 15px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: rgba(102,102,102,1);
+    margin-bottom: 10px;
+}
+.tnpc-edit-box-content-field-input:focus {
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.tnpc-edit-box-content-field-textarea {
+    /*float: left;*/
+    height: 180px;
+    width: 380px;
+    border: 1px solid rgba(204,204,204,1);
+    outline: none;
+    font-family: inherit;
+    font-size: 15px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: rgba(102,102,102,1);
+    resize: none;
+    padding: 10px;
+}
+.tnpc-edit-box-content-field-textarea:focus {
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.tnpc-edit-box-content-icons {
+    /*float: left;*/
+    height: 388px;
+    width: 388px;
+    border: 1px solid rgba(204,204,204,1);
+    margin-top: 15px;
+    overflow-y: scroll;
+}
+.tnpc-edit-box-content-icons i {
+    line-height: 50px;
+    background-color: rgba(225,225,225,1);
+    /*float: left;*/
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-size: 28px;
+    color: rgba(51,51,51,1);
+}
+.tnpc-edit-box-content-icons i:hover {
+    cursor: pointer;
+    background-color: rgba(153,153,153,1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(0,0,0,1);
+}
+
+/* Save and cancel buttons container on block options popup */
+.tnpc-edit-box-buttons{
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.tnpc-edit-box-buttons-save{
+    height: 35px;
+    text-align: right;
+    line-height: 35px;
+    color: #27AE60;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    transition: background 0.5s;
+    cursor: pointer;
+    /*float: left;*/
+    /*padding-right: 25px;
+    padding-left: 25px;
+    width: 33%;*/
+    display: inline-block;
+}
+.tnpc-edit-box-buttons-save:hover {
+    color: #2ECC71;
+}
+.tnpc-edit-box-buttons-cancel{
+    height: 35px;
+    text-align: right;
+    line-height: 35px;
+    color: #666;
+    font-weight: normal;
+    font-size: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    transition: background 0.5s;
+    cursor: pointer;
+    /*float: left;*/
+    /*padding-right: 25px;
+    padding-left: 25px;
+    width: 33%;*/
+    display: inline-block;
+    margin-right: 25px;
+}
+.tnpc-edit-box-buttons-cancel:hover {
+    color: #E74C3C;
+}
+
+
+/* Tnp Composer Preview */
+
+.tnpc-subject a {
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3498DB;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+}
+
+
+/* Tnp Html Editor */
+
+#tnpc-html-editor {
+    height: 600px;
+    border-top: 20px solid #323232;
+    border-radius: 8px;
+}
+
+/* List Block Styles */ *
+
+.tnp-select2-option {
+    /* background-color: red; */
+}
+
+.tnp-select2-option img {
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-color: rgba(234, 234, 234, 0.25);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ************************************************************************** */
+/* Block options layer over the sidebar */
+
+/* Main container */
+#tnpc-block-options {
+    /*height: 100vh;*/
+    z-index: 10;
+    flex-flow: column;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 0;
+}
+
+
+/* Save and cancel button container */
+#tnpc-block-options #tnpc-block-options-buttons {
+    padding: 15px;
+    text-align: right;
+    height: 65px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Form */
+#tnpc-block-options-form {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 0;
+    color: #444;
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+#tnpc-block-options-form h3 {
+    color: #000;
+    margin-top: 0;
+}
+
+#tnpc-block-options-form table.form-table th {
+    /*background-color: #f4f4f4;*/
+    width: 100%;
+    vertical-align: top;
+    float: left;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+#tnpc-block-options-form table.form-table td {
+    float: left;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+#tnpc-block-options-form table.form-table {
+    margin: 0px;
+    border-collapse: separate!important;
+    border-spacing: 1px!important;
+}
+
+#tnpc-block-options-form table.form-table table.tnp-button-colors {
+    border: 0;
+    border-collapse: collapse;
+}
+
+#tnpc-block-options-form table.form-table table.tnp-button-colors td {
+    border: 0;
+    padding-top: 0;
+}
+
+/* Style the tab */
+.tnpb-tabs {
+    /*overflow: hidden;*/
+    background-color: transparent;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tnpb-tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #000;
+}
+
+/* Change background color of buttons on hover */
+.tnpb-tabs button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tnpb-tabs button.active {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Style the tab content */
+.tnpb-tab {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+/* Style Reset, Save, Save & Preview footer */
+
+.tnpc-controls {
+    text-align: right;
+}
+
+.tnpc-logo {
+    float: left;
+}
+
+.tnpc-logo p {
+    color: #fff !important;
+    font-size: 16px;
+    margin-left: 20px !important;
+    margin-top: 5px !important;
+}
+
+#tnpb-main ul {
+    display: block;
+    list-style-type: disc;
+}
+
+#tnpb-main ul li {
+    margin-bottom: 0;
+}
+
+/* Global Options elements style */
+
+#tnpc-general-options select {
+    box-shadow: none;
+    border-radius: 0px;
+    border: none;
+    margin-right: 5px;
+}
+
+/* Blocks options global styles */
+
+.tnpc-block-options-warning {
+    background-color: #def9e9;
+    padding: 10px 15px;
+}
+
+/* Presets */
+.tnpc-preset-container {
+    max-width: 720px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tnpc-preset-legacy-themes {
+    position: absolute;
+    top: -15px;
+    left: 15px;
+}
+
+
+.tnpc-preset {
+    float: left;
+    margin: 15px;
+    cursor: pointer;
+    width: 150px;
+    height: 200px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 0 #dee3e4;
+    position: relative;
+    text-align: center;
+}
+
+.tnpc-preset-html {
+    background-color: #5397d5;
+}
+
+.tnpc-preset-html span {
+    color: #fff;
+}
+
+.tnpc-preset:hover {
+    box-shadow: 0 0 8px 8px #dee3e4;
+}
+
+.tnpc-preset img {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.tnpc-preset-label {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    width: 80%;
+    font-family: soleil, sans-serif;
+    color: #2f3241;
+    font-weight: 200;
+}
+
+.tnpc-delete-preset {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #8B0000;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 0 8px 0 8px;
+    z-index: 100;
+}
+
+.tnpc-edit-preset {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #3498DB;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 8px 0 8px 0;
+    z-index: 100;
+}
+
+.tnpc-inline-editable {
+    cursor: text;
+}
+
+.tnpc-inline-editable {
+    cursor: text;
+    position: relative;
+}
+
+.tnpc-inline-editable:hover {
+    color: #EEE !important;
+}
+
+.tnpc-inline-editable:hover:after {
+    content: '';
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    border-radius: 2px;
+}
+
+.tnpc-inline-editable:hover:before {
+    content: '\f464';
+    font-family: dashicons;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    line-height: 32px;
+    color: #333;
+}
+
+.tnpc-inline-editable-form {
+    position: relative;
+    margin-top: 25px;
+}
+
+.tnpc-inline-editable-form textarea,
+.tnpc-inline-editable-form input {
+    width: 95%;
+    margin-left: 20px;
+}
+
+.two-columns .tnpc-inline-editable-form-actions {
+    right: 0;
+}
+
+.tnpc-inline-editable-form input {
+    padding: 5px;
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: rgb(51, 51, 51);
+    line-height: normal;
+}
+
+.tnpc-inline-editable-form-actions {
+    position: absolute;
+    top: -25px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tnpc-inline-editable-form-actions button {
+    background: none;
+    padding: 0;
+    border: none;
+}
+
+.tnpc-inline-editable-form-actions span {
+    display: block;
+    font-size: 25px;
+    color: #333;
+    cursor: pointer;
+}
+
+.tnpc-inline-editable-form-actions span:first-child {
+    margin-right: 5px;
+}
+
+#update-preset-button {
+    display: none;
+}
+
+.tnp-separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.tnp-separator::before,
+.tnp-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #3c434a;
+}
+
+.tnp-separator:not(:empty)::before {
+    margin-right: 1em;
+}
+
+.tnp-separator:not(:empty)::after {
+    margin-left: 1em;
+}
+
+#test-newsletter-modal .test-subscribers p {
+    margin: 0;
+}
+
+#test-newsletter-modal h4 {
+    margin: 0 0 0.5rem 0;
+}
+
+#test-newsletter-modal .tnp-separator {
+    padding: 1.25rem 0;
+}
+
+
+.tnp-suggest-subject {
+    cursor: pointer;
+}
+
+/* Drag and drop placeholder */
+.tnpb-placeholder {
+    border: 1px dashed #bbb!important;
+    background-color: #fafafa!important;
+    height: 75px;
+    margin: 0 auto;
+    max-width: 600px;
+    box-sizing: border-box!important;
+}
+
+#tnpb-draggable-helper {
+    width: 600px;
+    border: 1px dashed #ddd;
+    opacity: 80%!important;
+    background-color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #666 !important;
+    padding: 20px;
+}
+
+#tnpb-sortable-helper {
+    width: 700px;
+    height: 75px;
+    border: 3px dashed #ddd;
+    opacity: .7;
+    background-color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px; color: #aaa;
+    padding: 20px;
+}

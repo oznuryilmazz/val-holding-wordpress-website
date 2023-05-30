@@ -1,0 +1,134 @@
+.newsletters .btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.newsletters .btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.newsletters .nopadding {
+	padding: 0;
+}
+
+/* General */
+ul.newsletters_nolist {
+	margin: 0 0 0 0 !important;
+	list-style: none;
+	list-style-type: none !important;
+}
+
+/* Subscribe Form */
+
+div.newslettername-wrapper, 
+input.newslettername {
+	display: none !important;
+}
+
+.newsletters .form-inline .newsletters-fieldholder {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.newsletters .help-block {
+	font-size: 80%;
+}
+
+.newsletters .input-group.date .input-group-addon {
+	cursor: pointer;
+}
+
+.newsletters .btn, .newsletters ul.nav li a {
+	text-decoration: none !important;
+}
+
+.newsletters .newsletters-dateholder {
+	position: relative;
+}
+
+/* Manage Subscriptions */
+
+.newsletters ul.nav {
+	margin: 10px 0 20px 0 !important;
+}
+
+.newsletters .paybutton {
+	color: #fff !important;
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
+	padding: 6px 12px !important;
+}
+
+.newsletters .modal {
+	z-index: 2999;
+}
+
+.newsletters .modal-dialog {
+	margin: 100px auto !important;
+}
+
+/* 3rd Party Overrides */
+/** Select2 **/
+.has-error .select2-selection {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    border: 1px solid #a94442;
+    border-radius: 4px;
+}
+
+.newsletters .select2-container {
+	display: block !important;
+	width: 100% !important;
+}
+
+/** Bootstrap Datepicker **/
+.datepicker {
+	
+}
+
+.datepicker .datepicker-switch, 
+.datepicker .next, 
+.datepicker .prev, 
+.datepicker .day, 
+.datepicker .month, 
+.datepicker .year {
+	cursor: pointer;
+}
+
+.datepicker table td, 
+.datepicker table th {
+	text-align: center;
+}
+
+.datepicker table td.today.day {
+	font-weight: bold;
+	background: #f2f2f2;
+}
+
+.datepicker .month, 
+.datepicker .year {
+	float: left;
+	display: block;
+	padding: 10px;
+}
+
+.newsletters .has-error .checkbox, .newsletters .has-error .checkbox-inline, .newsletters .has-error .control-label, .newsletters .has-error .help-block, .newsletters .has-error .radio, .newsletters .has-error .radio-inline, .newsletters .has-error.checkbox label, .newsletters .has-error.checkbox-inline label, .newsletters .has-error.radio label, .newsletters .has-error.radio-inline label { color: #a94442; }
+.newsletters .has-error .form-control { border-color: #a94442; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+.newsletters .has-error .form-control:focus { border-color: #843534; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
+.newsletters .has-error .input-group-addon { color: #a94442; background-color: #f2dede; border-color: #a94442; }
+.newsletters .has-error .form-control-feedback { color: #a94442; }
+
+.newsletters .alert {
+    font-size: 80%;
+}

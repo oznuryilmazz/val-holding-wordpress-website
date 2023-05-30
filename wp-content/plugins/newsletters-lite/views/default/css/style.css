@@ -1,0 +1,520 @@
+/** General CSS **/
+
+.select2-container {
+	max-width: 80%;
+}
+
+div.newslettername-wrapper,
+input.newslettername {
+	display:none;
+}
+
+div.g-recaptcha {
+	 width:220px; 
+	 overflow:hidden; 
+	 border-radius: 4px; 
+	 border-right: 1px solid #d8d8d8;
+	 margin: 15px 0;
+}
+
+.entry-content div.g-recaptcha {
+	width: auto !important;
+	border: none !important;
+}
+
+.wpmlerror, .wpmlrequired,
+ul.wpmlerror li, .newsletters_error {
+	color: #CC0000;	
+}
+
+.newsletters_required {
+	font-size: 8px;
+	color: #cc0000;
+	vertical-align: top;
+}
+
+.newsletters .ui-state-highlight, 
+.newsletters .ui-state-error {
+	margin: 8px 0 15px 0px;
+	font-size: 90%;
+}
+
+.newsletters .newsletters-fieldholder .ui-state-highlight,
+.newsletters .newsletters-fieldholder .ui-state-error {
+	display: inline-block;
+	min-width: 200px;
+}
+
+ul.newsletters_nolist {
+	margin: 7px 0;
+	padding: 0 0 0 15px;
+	list-style: none;
+	list-style-type: none !important;
+}
+
+.wpmlsuccess, .newsletters_success {
+	color: green;
+}
+
+.wpmlsmall {
+	font-size: 80%;
+}
+
+/** Subscribe Form **/
+
+.wpmlwidget, .widget_newsletters {
+	/*padding: 0 0 15px 0;*/
+	margin: 0 0 20px 0;
+}
+
+.wpmlwidget .wpmlerror,
+.widget_newsletters .wpmlerror {
+	margin: 20px 0 10px 0;
+	padding: 0 0 0 0;
+	list-style: none;
+}
+
+.widget_newsletters .wpmlerror li {
+	padding: 0;
+	margin: 0;
+}
+
+.wpmlwidget .wpmlfielderror,
+.widget_newsletters .wpmlfielderror {
+	border: 1px #CC0000 solid !important;
+}
+
+.wpmlwidget fieldset, .wpmlwidget .wpmlfieldholder,
+.widget_newsletters .newsletters-fieldholder,
+.widget_newsletters fieldset, 
+.widget_newsletters .wpmlfieldholder {
+    margin: 10px 0 15px 0;
+    border: none;
+    background: none;
+    padding: 0 0 0 0;
+}
+
+.wpml fieldset legend, .wpmlfieldholder label.wpmlcustomfield,
+.newsletters-fieldholder label.wpmlcustomfield,
+.widget_newsletters label.wpmlcustomfield {
+    font-weight: bold;
+    padding: 0 0 4px 0;
+}
+
+.wpmlfieldholder label.wpmlcustomfield,
+.newsletters-fieldholder label.wpmlcustomfield {
+	/*float:left;*/
+	display: block;
+	width:100%;
+}
+
+select.wpml {
+	width: auto;
+	height: 30px;
+}
+
+.wpmlwidget .wpmlcustomfieldcaption,
+.widget_newsletters .wpmlcustomfieldcaption {
+    font-size: 90%;
+	padding-top:3px;
+	display:block;
+}
+
+.wpmlcheckboxlabel, .wpmlradiolabel {
+	display:block;
+	padding-bottom:2px;
+}
+
+.wpmlwidget label.wpml,
+#savefields label.wpml,
+.wpmlunsubscribe label.wpml,
+.widget_newsletters label.wpml {
+	cursor: pointer;
+}
+
+.newsletters-captcha label, 
+.newsletters-captcha input,
+.newsletters-captcha img {
+	display: block !important;
+}
+
+.newsletters-captcha img {
+	box-shadow: none;
+	border: 0;
+	border-radius: 0;
+}
+
+.wpmlwidget .wpmlloading img,
+.widget_newsletters .newsletters-loading-wrapper img {
+	background: none;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+/** Subscriber Management Forms/Fields **/
+
+.newsletters-management {
+	
+}
+
+.newsletters-management .newsletters-fieldholder-visible,
+.entry-content .newsletters-fieldholder-visible,
+.entry .newsletters-fieldholder-visible {
+	width: 47%;
+	display: inline-block;
+	padding: 0;
+	margin: 0 0 15px 2%;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.newsletters-fieldholder-hidden, 
+.newsletters-management .newsletters-fieldholder-hidden,
+.entry-content .newsletters-fieldholder-hidden, 
+.entry .newsletters-fieldholder-hidden {
+	display: none;
+}
+
+.wpmlsubmitholder {
+	clear:both;
+	position:relative;
+}
+
+.wpml fieldset, .wpmlfieldholder, .newsletters-fieldholder {
+	clear:both;
+}
+
+#subscriberauthloginformdiv {
+	float:left;
+	width:100%;
+	padding-bottom:15px;
+}
+
+.newsletters .ui-button {
+	text-decoration: none !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  background-color: #e6e6e6 !important;
+  background-repeat: no-repeat !important;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6) !important;
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6) !important;
+  background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6) !important;
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6) !important;
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0) !important;
+  padding: 5px 14px 6px !important;
+  margin: 0 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75) !important;
+  color: #333 !important;
+  line-height: normal !important;
+  border: 1px solid #ccc !important;
+  border-bottom-color: #bbb !important;
+
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+  -webkit-transition: 0.1s linear background-image !important;
+  -moz-transition: 0.1s linear background-image !important;
+  -ms-transition: 0.1s linear background-image !important;
+  -o-transition: 0.1s linear background-image !important;
+  transition: 0.1s linear background-image !important;
+   overflow: visible !important;
+} /* the overflow property removes extra width in IE */
+
+.newsletters .ui-button-primary {
+  color: #ffffff !important;
+  background-color: #0064cd !important;
+  background-repeat: repeat-x !important;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd)) !important;
+  background-image: -moz-linear-gradient(top, #049cdb, #0064cd) !important;
+  background-image: -ms-linear-gradient(top, #049cdb, #0064cd) !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd)) !important;
+  background-image: -webkit-linear-gradient(top, #049cdb, #0064cd) !important;
+  background-image: -o-linear-gradient(top, #049cdb, #0064cd) !important;
+  background-image: linear-gradient(top, #049cdb, #0064cd) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#049cdb', endColorstr='#0064cd', GradientType=0) !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+  border-color: #0064cd #0064cd #003f81 !important;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+
+.newsletters .ui-button-success{
+  color:#ffffff !important;
+  background-color: #57a957 !important;
+  background-repeat: repeat-x !important;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#62c462), to(#57a957)) !important;
+  background-image: -moz-linear-gradient(top, #62c462, #57a957) !important;
+  background-image: -ms-linear-gradient(top, #62c462, #57a957) !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #62c462), color-stop(100%, #57a957)) !important;
+  background-image: -webkit-linear-gradient(top, #62c462, #57a957) !important;
+  background-image: -o-linear-gradient(top, #62c462, #57a957) !important;
+  background-image: linear-gradient(top, #62c462, #57a957) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#57a957', GradientType=0) !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+  border-color: #57a957 #57a957 #3d773d !important;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.newsletters .ui-button-error{
+  color:#ffffff !important;
+  background-color: #c43c35 !important;
+  background-repeat: repeat-x !important;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35)) !important;
+  background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35) !important;
+  background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35) !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee5f5b), color-stop(100%, #c43c35)) !important;
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35) !important;
+  background-image: -o-linear-gradient(top, #ee5f5b, #c43c35) !important;
+  background-image: linear-gradient(top, #ee5f5b, #c43c35) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#c43c35', GradientType=0) !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+  border-color: #c43c35 #c43c35 #882a25 !important;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.newsletters .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, 
+.newsletters .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+  background-position: 0 -15px !important;
+  color: #333;
+  text-decoration: none !important;
+ }
+ 
+.newsletters .ui-datepicker-trigger:before {
+ font-family: FontAwesome !important;
+ content: "\f073";
+}
+
+.newsletters .ui-datepicker-trigger img {
+	display: none;
+}
+ 
+/* Corner radius */
+.newsletters .ui-corner-all, 
+.ui-corner-top, 
+.ui-corner-left, 
+.ui-corner-tl { 
+  -moz-border-radius-topleft: 4px; 
+  -webkit-border-top-left-radius: 4px; 
+  -khtml-border-top-left-radius: 4px; 
+  border-top-left-radius: 4px; 
+}
+.newsletters .ui-corner-all, 
+.ui-corner-top, 
+.ui-corner-right, 
+.ui-corner-tr { 
+  -moz-border-radius-topright: 4px; 
+  -webkit-border-top-right-radius: 4px; 
+  -khtml-border-top-right-radius: 4px; 
+  border-top-right-radius: 4px; 
+}
+.newsletters .ui-corner-all, 
+.ui-corner-bottom, 
+.ui-corner-left, 
+.ui-corner-bl { 
+  -moz-border-radius-bottomleft: 4px; 
+  -webkit-border-bottom-left-radius: 4px; 
+  -khtml-border-bottom-left-radius: 4px; 
+  border-bottom-left-radius: 4px; 
+}
+.newsletters .ui-corner-all, 
+.ui-corner-bottom, 
+.ui-corner-right, 
+.ui-corner-br { 
+  -moz-border-radius-bottomright: 4px; 
+  -webkit-border-bottom-right-radius: 4px; 
+  -khtml-border-bottom-right-radius: 4px; 
+  border-bottom-right-radius: 4px; 
+}
+
+.wpml .currentfile a img {
+	border: 1px #CCCCCC solid;
+	padding: 2px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.wpml .currentfile a:hover img {
+	border: 1px #515151 solid !important;
+}
+
+#subscriberauthloginform label {
+	display:block;
+	width:100%;
+	clear:both;
+	padding-bottom:4px;
+	padding-right:4px;
+}
+
+#savefields {
+
+}
+
+#savefields fieldset {
+    float: left;
+    width: 50%;
+    margin: 0 0 15px 0;
+}
+
+#savefields fieldset span.wpmlcustomfieldcaption,
+#currentsubscriptions span.wpmlcustomfieldcaption,
+#newsubscriptions span.wpmlcustomfieldcaption {
+    font-size: 90%;
+    color: #999999;
+    display: block;
+}
+
+#savefields fieldset input, #savefields fieldset textarea, 
+#savefields fieldset select, #subscriberauthloginformdiv input#email,
+.wpmlwidget input.wpmltext, .wpmlwidget input.wpmlcheckbox, .wpmlwidget input.wpmlradio, 
+.wpmlwidget textarea, .wpml textarea, .wpmlwidget select,
+.wpmlunsubscribe input.wpmltext, .wpmlunsubscribe input.wpmlcheckbox, .wpmlunsubscribe input.wpmlradio, 
+.wpmlunsubscribe textarea, .wpmlunsubscribe select,
+.widget_newsletters input.wpmltext, .widget_newsletters input.wpmlcheckbox, .widget_newsletters input.wpmlradio, 
+.widget_newsletters textarea, .widget_newsletters select {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+    margin: 0px !important;
+    padding: 5px 5px 6px !important;
+	margin: 0 !important;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75) !important;
+	color: #333;
+	line-height: normal !important;
+	border: 1px solid #ccc;
+	border-bottom-color: #bbb;
+}
+
+.widget_newsletters textarea {
+	width: 90%;
+}
+
+#savefields fieldset input[type=checkbox] {
+	border:0;
+	background:none;
+}
+
+.wpmlwidget input.wpml,
+.widget_newsletters input.wpml {
+	width: auto !important;
+}
+
+#savefields p.submit {
+    clear: both;
+    display: block;
+}
+
+#savefields p.submit span#savefieldsloading {
+    margin: 0 0 0 20px;
+}
+
+.wpml .listfieldsdiv {
+	margin: 0 0 0 0;
+	padding: 1px 0 0 0;
+}
+
+.wpml .clear, .wpmlclear, .newsletters_clear {
+	clear: both;
+	height: 1px;
+	visibility: hidden;
+	display: block;
+	width: 100%;
+}
+
+/* TABLES */
+
+.wpml table, .newsletters table {
+	border-collapse:collapse;
+	border-spacing:0;
+	border:1px solid #DDD;
+	width: 100%;
+}
+
+.wpml caption, .wpml table th, .wpml table td {
+	font-weight:normal;
+	text-align:left;
+	border:1px solid #DDD;
+	padding: 10px;
+}
+
+/* Admin Bar */
+
+#wpadminbar .newsletters-lite a:before {
+    font-family: 'FontAwesome' !important;
+    content: "\f0e0";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    top: 3px;
+}
+
+#wpadminbar .newsletters-lite {
+}
+
+#wpadminbar .newsletters-lite a {
+}
+
+#wpadminbar .newsletters-lite-listlimit {
+}
+
+#wpadminbar .newsletters-lite-listlimit a {
+}
+
+#wpadminbar .newsletters-lite-subscriberlimit {
+}
+
+#wpadminbar .newsletters-lite-subscriberlimit a {
+}
+
+#wpadminbar .newsletters-lite-emaillimit {
+}
+
+#wpadminbar .newsletters-lite-emaillimit a {
+}
+
+#wpadminbar .newsletters-lite-submitserial {
+}
+
+#wpadminbar .newsletters-lite-submitserial a:before {
+    content: '' !important;
+}
+
+#wpadminbar .newsletters-lite-submitserial a {
+	   color: green !important;
+	   background: white;
+	font-weight: bold;
+}
+
+#wpadminbar .newsletters-lite-upgrade {
+}
+
+#wpadminbar .newsletters-lite-upgrade a:before {
+    content: '' !important;
+}
+
+#wpadminbar .newsletters-lite-upgrade a {
+	   color: red !important;
+	   background: white;
+	font-weight: bold;
+}
+
+/* Smart Phones */
+@media (max-width: 480px) {
+	.newsletters-management .newsletters-fieldholder-visible, 
+	.entry-content .newsletters-fieldholder-visible	{
+		width: 100% !important;
+	}
+}
+
+/* Tablets */
+@media (max-width:768px) { 
+	
+}

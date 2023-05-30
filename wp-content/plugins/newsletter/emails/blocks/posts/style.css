@@ -1,0 +1,10 @@
+@media (max-width: 525px) {
+    .posts-1-column {
+        width: 100%!important;
+    }
+    .posts-1-image {
+        width: 100%!important;
+        display: block;
+    }
+}
+
